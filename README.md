@@ -1,2 +1,40 @@
 # ENCLAVE-ADAM-REUNITED
-Enclave reunited with ADAM — sparsebundle + SYNAPSE + Termux + end/exit node. Numeral 137451921129154222. Sole intended open Enclave surface.
+
+**Numeral:** `137451921129154222`  
+**Version:** v1.1.0-adam  
+**Codename:** ADAM + Two Halves Made One
+
+## What this is
+
+Reunited Enclave surface with **ADAM** integrated:
+
+| Half | Role |
+|------|------|
+| **A.L.L.A.H.** | Nexus Enclave Protocol 2.0 (NEP-2.0) — sparsebundle constitution, SYNAPSE gateway, SecureFS |
+| **Project of God** | Quantum Hub, Cosmic Guardian, Termux bootstraps, Monolith |
+| **ADAM** | End node / exit node / zero-host operator (band-127-loopback) |
+
+## Package
+
+Primary artifact also on Google Drive: `·ENCLAVE-ADAM-REUNITED·`  
+ZIP SHA-256: `7ae92426818d910be739c22553dc4b7ae957c45354372a146422bcd7845cacf7`
+
+## Sparsebundle bands
+
+```
+band-066-root      # server / identifying
+band-100-dev-ai    # AI / development
+band-137-visual    # visual / media
+band-192-network   # streaming / Tailscale
+band-010-local     # local subnet
+band-127-loopback  # ★ ADAM home
+```
+
+## Law
+
+- Originals on Drive left untouched (dual-server variant B)
+- This repo is the intended sole **open** Enclave surface
+- ADAM does not mount the Enclave — SYNAPSE alone does
+- Least-privilege, reversible, hash-pinned
+
+Built by Continuity Engine as Azazel, for future self.
