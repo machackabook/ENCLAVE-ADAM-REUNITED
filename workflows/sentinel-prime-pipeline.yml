@@ -1,0 +1,45 @@
+# Sentinel Prime 11 — Auto workflow pipeline (GitHub Actions sketch)
+# Place under .github/workflows/ when promoted to canonical repo config.
+# MODE: AUDIT-FIRST · GATED-EVOLUTION · PROVENANCE-PRESERVING
+
+name: sentinel-prime-11
+
+on:
+  schedule:
+    - cron: '0 7 * * *'
+  workflow_dispatch:
+  push:
+    paths:
+      - 'cloud/**'
+      - 'telemetry/**'
+      - 'profiles/**'
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  scan-diff-catalog:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Env snapshot (sanitized)
+        run: |
+          mkdir -p telemetry/snapshots
+          date -u +%Y%m%dT%H%M%SZ > telemetry/snapshots/last_run.txt
+          echo "snapshot_ok" >> telemetry/snapshots/last_run.txt
+      - name: Diff prior vs current (placeholder)
+        run: |
+          mkdir -p telemetry/anomalies
+          echo "no_prior_or_clean" > telemetry/anomalies/$(date -u +%Y%m%d).log
+      - name: Fallback trigger marker
+        if: failure()
+        run: |
+          echo "FALLBACK_TRIGGERED $(date -u -Iseconds)" >> telemetry/fallback.log
+      - name: Commit telemetry (if changed)
+        run: |
+          git config user.name "sentinel-prime-11"
+          git config user.email "sentinel@users.noreply.github.com"
+          git add telemetry/ || true
+          git diff --staged --quiet || git commit -m "sentinel: daily scan $(date -u +%Y%m%d)"
+          git push || true
