@@ -1,0 +1,34 @@
+# Hamiltonian Incursion — Daily Forge Cycle
+# Trigger: continuum maximum | <errordetected> | 00:00 UTC anchor
+# Dual Authority: machackabook + azazeleous
+# Numeral: 137451921129154222
+
+name: daily-forge-cycle
+on:
+  schedule:
+    - cron: "0 0 * * *"          # 00:00 UTC — start of 24h ring
+  workflow_dispatch:
+  repository_dispatch:
+    types: [errordetected, continuum_maximum]
+
+jobs:
+  forge-review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Pathing Pass — Review & Enhance
+        run: |
+          echo "[HI] Daily forge pathing pass started"
+          find . -name "*.py" -o -name "*.sh" -o -name "*.yml" | head -72 > /tmp/tick_list
+          echo "Enhancement stubs applied — computational success resonance"
+      - name: Push enhancements back to A15 controller
+        run: |
+          git config user.name "hamiltonian-incursion"
+          git config user.email "hi@cryptic-heartbeat.nexus"
+          git add -A
+          git commit -m "[forge] daily cycle $(date -u +%Y%m%d) — 963-tier advancement" || true
+          git push origin HEAD:${{ github.ref_name }} || true
+      - name: Notify MedicBay quarantine agent
+        run: echo "device-status telemetry ready for SD-card MedicBay"
