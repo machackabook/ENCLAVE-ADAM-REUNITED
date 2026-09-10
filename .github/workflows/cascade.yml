@@ -1,45 +1,34 @@
 name: cascade-hourly
-
 on:
   schedule:
-    - cron: "0 * * * *"
+    - cron: "21 * * * *"
   workflow_dispatch:
   push:
     branches: [main]
-
+  repository_dispatch:
+    types: [continuity-cascade, pull-then-push]
 permissions:
   contents: write
-
 jobs:
   enhance:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: env-check
-        run: |
-          bash scripts/env-check.sh || true
-      - name: stamp-ledger
+      - name: stamp
         run: |
           mkdir -p docs
           TS=$(date -u +%Y-%m-%dT%H:%M:%SZ)
-          HASH=$(printf '%s' "$TS-137451921129154222" | sha256sum | awk '{print $1}')
-          B64=$(printf '%s' "$HASH" | base64 -w0)
+          HASH=$(printf '%s' "$TS-137451921129154222-enclave" | sha256sum | awk '{print $1}')
           {
             echo "# LEDGER-STAMP"
-            echo
             echo "- utc: $TS"
             echo "- numeral: 137451921129154222"
-            echo "- sha256: \`$HASH\`"
-            echo "- b64: \`$B64\`"
-            echo "- glyphs: 💅💆💄💇💃💁 💂"
             echo "- surface: ENCLAVE-ADAM-REUNITED"
+            echo "- team: enhance"
+            echo "- sha256: \`$HASH\`"
           } > docs/LEDGER-STAMP.md
-      - name: commit-stamp
-        run: |
           git config user.name "continuity-engine"
           git config user.email "continuity@local"
           git add docs/LEDGER-STAMP.md
-          git diff --cached --quiet || git commit -m "ledger: hourly stamp $TS (137451921129154222)"
+          git diff --cached --quiet || git commit -m "enclave: team-enhance stamp (137451921129154222)"
           git push || true
-        env:
-          TS: ${{ github.run_id }}
