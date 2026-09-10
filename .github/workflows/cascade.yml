@@ -9,14 +9,18 @@ on:
     types: [continuity-cascade, pull-then-push]
 permissions:
   contents: write
+  actions: write
 jobs:
   enhance:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: env-check
+        run: |
+          mkdir -p docs scripts
+          if [ -x scripts/env-check.sh ]; then bash scripts/env-check.sh || true; fi
       - name: stamp
         run: |
-          mkdir -p docs
           TS=$(date -u +%Y-%m-%dT%H:%M:%SZ)
           HASH=$(printf '%s' "$TS-137451921129154222-enclave" | sha256sum | awk '{print $1}')
           {
@@ -25,10 +29,23 @@ jobs:
             echo "- numeral: 137451921129154222"
             echo "- surface: ENCLAVE-ADAM-REUNITED"
             echo "- team: enhance"
+            echo "- version: v1.2.2-speedway"
             echo "- sha256: \`$HASH\`"
           } > docs/LEDGER-STAMP.md
           git config user.name "continuity-engine"
           git config user.email "continuity@local"
-          git add docs/LEDGER-STAMP.md
+          git add docs/LEDGER-STAMP.md docs/MESH.md README.md .github/workflows/cascade.yml scripts/env-check.sh || true
           git diff --cached --quiet || git commit -m "enclave: team-enhance stamp (137451921129154222)"
           git push || true
+      - name: waterfall-dispatch
+        if: ${{ secrets.CASCADE_TOKEN != '' }}
+        env:
+          GH_TOKEN: ${{ secrets.CASCADE_TOKEN }}
+        run: |
+          for REPO in Cryptic-Heartbeat The-Hive gaia-visualizer nexus-repo-sync; do
+            curl -sS -X POST \
+              -H "Accept: application/vnd.github+json" \
+              -H "Authorization: Bearer $GH_TOKEN" \
+              "https://api.github.com/repos/machackabook/$REPO/dispatches" \
+              -d '{"event_type":"continuity-cascade"}' || true
+          done

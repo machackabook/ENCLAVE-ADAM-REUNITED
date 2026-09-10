@@ -1,13 +1,14 @@
 #!/usr/bin/env bash
-# Stage 41/42 env-check autocomplete stub.
-# Prints presence of mesh env vars without leaking values.
+# Continuity env check — ENCLAVE-ADAM-REUNITED
+# Numeral 137451921129154222
 set -euo pipefail
-keys=(CASCADE_TOKEN GAIA_PULSE_TOKEN RELAY_URL DRIVE_ROOT TERMUX_ROOT)
-echo "enclave env-check $(date -u +%Y-%m-%dT%H:%M:%SZ)"
-for k in "${keys[@]}"; do
-  if [ -n "${k+x}" ] && [ -n "${!k:-}" ]; then
-    echo "  $k=set"
-  else
-    echo "  $k=missing"
+echo "[env-check] surface=ENCLAVE-ADAM-REUNITED utc=$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+echo "[env-check] pwd=$(pwd) user=$(id -un)"
+echo "[env-check] git=$(git rev-parse --short HEAD 2>/dev/null || echo none)"
+for p in README.md SECURITY.md docs .github/workflows/cascade.yml; do
+  if [ ! -e "$p" ]; then
+    echo "[env-check] MISSING $p" >&2
+    exit 1
   fi
 done
+echo "[env-check] ok"
