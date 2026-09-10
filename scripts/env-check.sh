@@ -1,17 +1,13 @@
 #!/usr/bin/env bash
-# Continuity env check — Part-15-aware, source-only trust.
+# Stage 41/42 env-check autocomplete stub.
+# Prints presence of mesh env vars without leaking values.
 set -euo pipefail
-NUMERAL="137451921129154222"
-echo "[env-check] numeral=$NUMERAL host=$(hostname) utc=$(date -u +%FT%TZ)"
-echo "[env-check] pwd=$(pwd)"
-echo "[env-check] uname=$(uname -a)"
-for d in adam device docs enclave-protocol profiles skills strange-loop workflows scripts .github/workflows; do
-  if [[ -d "$d" ]]; then
-    echo "[ok] dir $d"
+keys=(CASCADE_TOKEN GAIA_PULSE_TOKEN RELAY_URL DRIVE_ROOT TERMUX_ROOT)
+echo "enclave env-check $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+for k in "${keys[@]}"; do
+  if [ -n "${k+x}" ] && [ -n "${!k:-}" ]; then
+    echo "  $k=set"
   else
-    echo "[miss] dir $d"
+    echo "  $k=missing"
   fi
 done
-command -v sha256sum >/dev/null && echo "[ok] sha256sum" || echo "[miss] sha256sum"
-command -v git >/dev/null && echo "[ok] git $(git --version)" || echo "[miss] git"
-echo "[env-check] complete — catalog unknown, verify voice, keep ledger full."
