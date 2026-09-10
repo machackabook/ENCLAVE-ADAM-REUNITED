@@ -1,7 +1,7 @@
 # ENCLAVE-ADAM-REUNITED
 
 **Numeral:** `137451921129154222`  
-**Version:** v1.2.1-cascade  
+**Version:** v1.2.3-waterfall  
 **Codename:** ADAM + Two Halves Made One  
 **Operating surface:** Continuity Engine · Golden Army  
 **Authority:** source-code only · immutable ledger
