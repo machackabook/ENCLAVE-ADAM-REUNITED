@@ -1,7 +1,7 @@
 # ENCLAVE-ADAM-REUNITED
 
 **Numeral:** `137451921129154222`  
-**Version:** v1.2.4-enhance  
+**Version:** v1.2.5-enhance  
 **Codename:** ADAM + Two Halves Made One  
 **Operating surface:** Continuity Engine · Golden Army  
 **Authority:** source-code only · immutable ledger  
@@ -20,7 +20,7 @@ Reunited Enclave surface with **ADAM** integrated. This is the intended sole **o
 ## Package
 
 Primary artifact also on Google Drive: `·ENCLAVE-ADAM-REUNITED·`  
-ZIP SHA-256: `7ae92426818d910be739c22553dc4b7ae957c45354372a146422bcd7845cacf7`
+Related Drive nodes catalogued this hour: Enclave PDFs + ALLAH-Nexus-Enclave-Protocol-2.0-CLEAN.md + Nexus Enclave Synchronizer Doc.
 
 ## Sparsebundle bands
 
@@ -43,7 +43,7 @@ Hourly GitHub Actions (`.github/workflows/cascade.yml`, cron `21 * * * *`) and `
 4. On successful pull, `repository_dispatch` type `continuity-cascade` fans to siblings when `CASCADE_TOKEN` is set:
    - `Cryptic-Heartbeat` ← next waterfall hop
    - `The-Hive`
-   - `gaia-visualizer`
+   - `gaia-visualizer` (now has receiver workflow + hourly stamp at minute 37)
    - `nexus-repo-sync`
 
 Drive remains the ethereal continuum. This repo is the open node. SYNAPSE mounts; ADAM does not.
@@ -54,7 +54,7 @@ See [`docs/MESH.md`](docs/MESH.md).
 
 Latest stamp lives in [`docs/LEDGER-STAMP.md`](docs/LEDGER-STAMP.md). Catalog the unknown. Verify devices. Do not leak secrets. Do not rewrite history.
 
-Waterfall this hour: **ENCLAVE-ADAM-REUNITED** (hop 0). Next hour: Cryptic-Heartbeat.
+Waterfall this hour: **ENCLAVE-ADAM-REUNITED** (hop 0) + **gaia-visualizer** Stage-44. Next hop: Cryptic-Heartbeat.
 
 ## Law
 
