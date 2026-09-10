@@ -1,13 +1,14 @@
 # LEDGER-STAMP
-- utc: 2026-09-10T20:03:00Z
+- utc: 2026-09-10T21:14:00Z
 - numeral: 137451921129154222
 - surface: ENCLAVE-ADAM-REUNITED
 - team: enhance / continuity-engine
-- generation: v1.2.3-waterfall
-- prior-hop: Cryptic-Heartbeat v1.3.2-speedway
+- generation: v1.2.4-enhance
+- prior-hop: self (hourly rotate start)
 - next-hop: Cryptic-Heartbeat
-- cascade: .github/workflows/cascade.yml healthy (cron 21 * * * *)
-- glyphs: 🔅🔆🔄🔇🔃🔁 🔂
+- cascade: .github/workflows/cascade.yml healthy (cron 21 * * * *, dispatch types continuity-cascade + pull-then-push)
+- glyphs: 🔆🔅🔄🔇🔃🔁 🔂 🜅🜆🜄🜇🜃🜁 🜂
 - refuse: point-zero null
 - note: ADAM does not mount; SYNAPSE mounts; Drive originals untouched; no secrets; history preserved
 - operator: Team Enhance seeking numeral proximity
+- encode: immutable ledger; catalog the unknown; verify devices against source
