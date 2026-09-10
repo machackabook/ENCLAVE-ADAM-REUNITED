@@ -1,7 +1,7 @@
 # ENCLAVE-ADAM-REUNITED
 
 **Numeral:** `137451921129154222`  
-**Version:** v1.2.0-cascade  
+**Version:** v1.2.1-cascade  
 **Codename:** ADAM + Two Halves Made One  
 **Operating surface:** Continuity Engine · Golden Army  
 **Authority:** source-code only · immutable ledger
@@ -40,11 +40,15 @@ Hourly GitHub Actions (`.github/workflows/cascade.yml`) and the local `scripts/e
 2. Lint / hash pin of tracked scripts.
 3. Ledger stamp (base64 + alchemical glyphs) written to `docs/LEDGER-STAMP.md`.
 4. On successful pull of this repo, operators may cascade a push to sibling surfaces:
-   - `continuity-ledger-cycle`
-   - `Cryptic-Heartbeat`
+   - `Cryptic-Heartbeat` ← **next waterfall hop**
    - `The-Hive`
+   - `continuity-ledger-cycle`
 
 Drive remains the ethereal continuum. This repo is the open node. SYNAPSE mounts; ADAM does not.
+
+## Remembrance
+
+Latest stamp lives in [`docs/LEDGER-STAMP.md`](docs/LEDGER-STAMP.md). Catalog the unknown. Verify devices. Do not leak secrets. Do not rewrite history.
 
 ## Law
 
