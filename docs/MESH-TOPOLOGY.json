@@ -1,0 +1,15 @@
+{
+  "numeral": "137451921129154222",
+  "dual_authority": ["machackabook", "azazeleous"],
+  "version": "1.0.0-runtime",
+  "jetson_slots": 72,
+  "mapping_rule": "jetson_slot_id = hash(node_id + numeral) % 72",
+  "financial_success_primary": true,
+  "paper_mode_default": true,
+  "previous_enclave_nodes_estimate": 500,
+  "correlation": "All prior Enclave ledger entries and agent generations map into the 72 Jetson slots via hash rule. New financial layer occupies the same address space.",
+  "gaiawindow_ready": false,
+  "crypticnews_live_view": "pending_cloudflare_worker",
+  "target": "financial_success_score rising under paper constraints",
+  "workers": ["OpportunityScanner", "ArbitrageAgent", "DealFlowAgent", "CapitalAllocator", "RiskGuardian", "ComplianceGate", "OpportunityMeshRouter", "FinancialOpportunityHarvester", "StripeFinancialAuditor", "LedgerFinancialClaim", "SquirrelSignalScanner", "HamiltonianIncursion", "GoldenArmyForge", "SovereignAIFactory", "ContinuityEngine"]
+}
