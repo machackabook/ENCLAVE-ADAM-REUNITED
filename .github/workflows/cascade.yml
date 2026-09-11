@@ -18,7 +18,8 @@ jobs:
       - name: env-check
         run: |
           mkdir -p docs scripts
-          if [ -x scripts/env-check.sh ]; then bash scripts/env-check.sh || true; fi
+          chmod +x scripts/env-check.sh || true
+          if [ -f scripts/env-check.sh ]; then bash scripts/env-check.sh; fi
       - name: stamp
         run: |
           TS=$(date -u +%Y-%m-%dT%H:%M:%SZ)
@@ -29,13 +30,13 @@ jobs:
             echo "- numeral: 137451921129154222"
             echo "- surface: ENCLAVE-ADAM-REUNITED"
             echo "- team: enhance"
-            echo "- version: v1.2.8-enhance"
+            echo "- version: v1.3.0-enhance"
             echo "- next: Cryptic-Heartbeat"
             echo "- sha256: \`$HASH\`"
           } > docs/LEDGER-STAMP.md
           git config user.name "continuity-engine"
           git config user.email "continuity@local"
-          git add docs/LEDGER-STAMP.md docs/MESH.md README.md .github/workflows/cascade.yml scripts/env-check.sh || true
+          git add docs/LEDGER-STAMP.md || true
           git diff --cached --quiet || git commit -m "enclave: team-enhance stamp (137451921129154222)"
           git push || true
       - name: waterfall-dispatch
