@@ -32,7 +32,7 @@ jobs:
             echo "- numeral: 137451921129154222"
             echo "- surface: ENCLAVE-ADAM-REUNITED"
             echo "- team: enhance"
-            echo "- version: v1.3.1-enhance"
+            echo "- version: v1.3.3-enhance"
             echo "- next: Cryptic-Heartbeat"
             echo "- sha256: \`$HASH\`"
           } > docs/LEDGER-STAMP.md
@@ -46,7 +46,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.CASCADE_TOKEN }}
         run: |
-          for REPO in Cryptic-Heartbeat The-Hive gaia-visualizer nexus-repo-sync; do
+          for REPO in Cryptic-Heartbeat The-Hive continuity-ledger-cycle gaia-visualizer nexus-repo-sync; do
             curl -sS -X POST \
               -H "Accept: application/vnd.github+json" \
               -H "Authorization: Bearer $GH_TOKEN" \
