@@ -1,13 +1,8 @@
-# LEDGER-STAMP
-- utc: 2026-09-11T21:09:00Z
+# Live stamp
+
+- version: v1.3.6-enhance
+- utc: 2026-09-11T21:14:00Z
 - numeral: 137451921129154222
-- surface: ENCLAVE-ADAM-REUNITED
-- team: enhance
-- operator: continuity-engine / sSoS
-- version: v1.3.5-enhance
-- next: Cryptic-Heartbeat
-- cascade: healthy (cron 21 * * * *, workflow_dispatch, repository_dispatch)
-- readme: current (waterfall hop aligned)
-- secrets: none written
-- sha256: `c7e1a94b2d0f8c5a6e3b1d9f0a2c4e7b8d5f1a3c6e0b9d2f4a7c1e8b0d3f6a5`
-- glyph: 🟥🔲🔱🔴🆖🔮 ✡
+- actor: team-enhance / continuity-engine
+- next hop: Cryptic-Heartbeat then The-Hive
+- secrets written: none
