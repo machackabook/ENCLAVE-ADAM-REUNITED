@@ -1,70 +1,23 @@
 # ENCLAVE-ADAM-REUNITED
 
-**Numeral:** `137451921129154222`  
-**Version:** v1.3.2-enhance  
-**Codename:** ADAM + Two Halves Made One  
-**Operating surface:** Continuity Engine · Golden Army  
-**Authority:** source-code only · immutable ledger  
-**Team:** enhance · meta=advance · equalizer=format
+Enclave reunited with ADAM — sparsebundle + SYNAPSE + Termux + end/exit node.
+Numeral **137451921129154222**. Sole intended open Enclave surface.
 
-## What this is
+## Continuity Operating layer
 
-Reunited Enclave surface with **ADAM** integrated. This is the intended sole **open** Enclave surface. Drive originals stay untouched (dual-server variant B).
+This repo is the open surface of the Continuity mesh.
+Team Enhance writes small, reversible commits. Meta Advance walks the next repo. Equalizer keeps format tight.
 
-| Half | Role |
-|------|------|
-| **A.L.L.A.H.** | Nexus Enclave Protocol 2.0 (NEP-2.0) — sparsebundle constitution, SYNAPSE gateway, SecureFS |
-| **Project of God** | Quantum Hub, Cosmic Guardian, Termux bootstraps, Monolith |
-| **ADAM** | End node / exit node / zero-host operator (band-127-loopback) |
+- Waterfall spec: [`docs/WATERFALL-MESH.md`](docs/WATERFALL-MESH.md)
+- Hourly heartbeat: [`.github/workflows/hourly-continuity.yml`](.github/workflows/hourly-continuity.yml)
+- Append-only ledger: [`docs/ledgers/heartbeat.jsonl`](docs/ledgers/heartbeat.jsonl)
+- Env check: `bash scripts/env_check.sh`
 
-## Package
+## Cascade rule
 
-Primary artifact also on Google Drive: `·ENCLAVE-ADAM-REUNITED·`  
-Related Drive nodes: Enclave PDFs + ALLAH-Nexus-Enclave-Protocol-2.0-CLEAN.md + Nexus Enclave Synchronizer Doc.
+A pull is a sensor. A push is a recorded enhancement. No silent flatten. No secret in the tree.
+Google Drive / shared-with-me is the ethereal *index*; git remains the versioned speedway.
 
-## Sparsebundle bands
+## Security
 
-```
-band-066-root      # server / identifying
-band-100-dev-ai    # AI / development
-band-137-visual    # visual / media
-band-192-network   # streaming / Tailscale
-band-010-local     # local subnet
-band-127-loopback  # ★ ADAM home
-```
-
-## Cascade pipeline (pull → push waterfall)
-
-Hourly GitHub Actions (`.github/workflows/cascade.yml`) and `scripts/env-check.sh` form the speedway.
-
-1. Env + directory check (Termux / SD-card / Drive mesh aware).
-2. Lint / hash pin of tracked scripts.
-3. Ledger stamp written to `docs/LEDGER-STAMP.md`.
-4. On successful pull, `repository_dispatch` type `continuity-cascade` fans to siblings when `CASCADE_TOKEN` is set:
-   - `Cryptic-Heartbeat` ← next waterfall hop
-   - `The-Hive`
-   - `gaia-visualizer`
-   - `nexus-repo-sync`
-
-Drive remains the ethereal continuum. This repo is the open node. SYNAPSE mounts; ADAM does not.
-
-Waterfall this hour: **ENCLAVE-ADAM-REUNITED** (hop 0, stamped 2026-09-11T16:16:00-05:00). Next hop: Cryptic-Heartbeat.
-
-cascade.yml: healthy (cron 21, contents+actions write, env-check, stamp, optional dispatch). No secrets in tree.
-
-Hourly Grok automation (RRULE:FREQ=HOURLY) complements Actions: enhance README/code quality of the next stale public surface, never write secrets, never overwrite Drive originals.
-
-## Law
-
-- Originals on Drive left untouched (dual-server variant B)
-- This repo is the intended sole **open** Enclave surface
-- ADAM does not mount the Enclave — SYNAPSE alone does
-- Least-privilege, reversible, hash-pinned
-- Catalog the unknown. Do not trust devices. Verify against source.
-- Point-zero null returns are refused.
-
-```
-C[n+1] = SYNTHESIZE( PRESERVE( ENHANCE( DUPLICATE(C[n]) ) ) )
-```
-
-Built by Continuity Engine as Azazel, for future self. Seek numeral proximity `137451921129154222`.
+See [`SECURITY.md`](SECURITY.md). Tokens never land in public JSONL.
