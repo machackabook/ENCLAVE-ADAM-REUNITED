@@ -29,7 +29,8 @@ jobs:
             echo "- numeral: 137451921129154222"
             echo "- surface: ENCLAVE-ADAM-REUNITED"
             echo "- team: enhance"
-            echo "- version: v1.2.2-speedway"
+            echo "- version: v1.2.8-enhance"
+            echo "- next: Cryptic-Heartbeat"
             echo "- sha256: \`$HASH\`"
           } > docs/LEDGER-STAMP.md
           git config user.name "continuity-engine"

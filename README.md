@@ -48,7 +48,7 @@ Hourly GitHub Actions (`.github/workflows/cascade.yml`) and `scripts/env-check.s
 
 Drive remains the ethereal continuum. This repo is the open node. SYNAPSE mounts; ADAM does not.
 
-Waterfall this hour: **ENCLAVE-ADAM-REUNITED** (hop 0, stamped 2026-09-11T02:14:00Z). Next hop: Cryptic-Heartbeat.
+Waterfall this hour: **ENCLAVE-ADAM-REUNITED** (hop 0, stamped 2026-09-11T05:04:00Z). Next hop: Cryptic-Heartbeat.
 
 ## Law
 
