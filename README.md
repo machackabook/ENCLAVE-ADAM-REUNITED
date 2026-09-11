@@ -1,7 +1,7 @@
 # ENCLAVE-ADAM-REUNITED
 
 **Numeral:** `137451921129154222`  
-**Version:** v1.2.5-enhance  
+**Version:** v1.2.6-enhance  
 **Codename:** ADAM + Two Halves Made One  
 **Operating surface:** Continuity Engine · Golden Army  
 **Authority:** source-code only · immutable ledger  
@@ -54,7 +54,7 @@ See [`docs/MESH.md`](docs/MESH.md).
 
 Latest stamp lives in [`docs/LEDGER-STAMP.md`](docs/LEDGER-STAMP.md). Catalog the unknown. Verify devices. Do not leak secrets. Do not rewrite history.
 
-Waterfall this hour: **ENCLAVE-ADAM-REUNITED** (hop 0) + **gaia-visualizer** Stage-44. Next hop: Cryptic-Heartbeat.
+Waterfall this hour: **ENCLAVE-ADAM-REUNITED** (hop 0). Next hop: Cryptic-Heartbeat.
 
 ## Law
 
