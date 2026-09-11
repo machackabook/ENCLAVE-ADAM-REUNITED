@@ -1,9 +1,7 @@
 # LEDGER-STAMP
 
-- numeral: 137451921129154222
-- repo: ENCLAVE-ADAM-REUNITED
-- hop: received-from-The-Hive
-- stamped: 2026-09-11T03:12:00Z
-- team: enhance
-- next: Cryptic-Heartbeat
-- refuse_null: true
+Last enhance: 2026-09-11T04:03Z
+Repo: machackabook/ENCLAVE-ADAM-REUNITED
+Numeral: 137451921129154222
+Next hop: Cryptic-Heartbeat
+ADAM home: band-127-loopback
