@@ -32,7 +32,7 @@ jobs:
             echo "- numeral: 137451921129154222"
             echo "- surface: ENCLAVE-ADAM-REUNITED"
             echo "- team: enhance"
-            echo "- version: v1.3.3-enhance"
+            echo "- version: v1.3.5-enhance"
             echo "- next: Cryptic-Heartbeat"
             echo "- sha256: \`$HASH\`"
           } > docs/LEDGER-STAMP.md
