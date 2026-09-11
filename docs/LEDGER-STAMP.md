@@ -1,8 +1,7 @@
-# Live stamp
+# LEDGER STAMP
 
-- version: v1.3.6-enhance
-- utc: 2026-09-11T21:14:00Z
+- generation: v1.3.8-enhance
+- stamped: 2026-09-11T22:05:00Z
 - numeral: 137451921129154222
-- actor: team-enhance / continuity-engine
-- next hop: Cryptic-Heartbeat then The-Hive
-- secrets written: none
+- next hop: Cryptic-Heartbeat (already stamped this hour)
+- team: enhance
