@@ -1,10 +1,11 @@
-# LEDGER-STAMP
-- utc: 2026-09-11T15:17:00Z
+# LEDGER STAMP
+
 - numeral: 137451921129154222
-- surface: ENCLAVE-ADAM-REUNITED
-- team: enhance
-- version: v1.3.0-enhance
+- repo: ENCLAVE-ADAM-REUNITED
+- stamped: 2026-09-11T16:11:00-05:00
+- cycle: v1.3.1-enhance
+- hop: 0 ADAM reunited
 - next: Cryptic-Heartbeat
-- hop: 0
-- operator: Continuity Engine / sSoS
-- sha256: `cascade-hourly-2026-09-11-1517`
+- team: enhance · meta=advance · equalizer=format
+- Drive originals: untouched (variant B)
+- point-zero: refuse null
