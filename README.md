@@ -7,25 +7,28 @@ Numeral **137451921129154222**. Sole intended open Enclave surface.
 
 This repo is the open surface of the Continuity mesh.
 Team Enhance writes small, reversible commits. Meta Advance walks the next repo. Equalizer keeps format tight.
-Last enhance stamp: `2026-09-11T20:06:00Z` (v1.3.3-enhance).
+Last enhance stamp: `2026-09-11T20:08:00Z` (v1.3.4-enhance).
 
 | Surface | Path |
 | --- | --- |
 | Waterfall spec | [`docs/WATERFALL-MESH.md`](docs/WATERFALL-MESH.md) |
+| Speedway pipeline | [`docs/SPEEDWAY-PIPELINE.md`](docs/SPEEDWAY-PIPELINE.md) |
 | Hourly heartbeat | [`.github/workflows/hourly-continuity.yml`](.github/workflows/hourly-continuity.yml) |
 | Cascade | [`.github/workflows/cascade.yml`](.github/workflows/cascade.yml) |
 | Append-only ledger | [`docs/ledgers/heartbeat.jsonl`](docs/ledgers/heartbeat.jsonl) |
 | Live stamp | [`docs/LEDGER-STAMP.md`](docs/LEDGER-STAMP.md) |
 | Env check | `bash scripts/env_check.sh` |
+| Drive mesh index | `bash scripts/drive_mesh_index.sh` |
 
 ## Cascade rule
 
 A pull is a sensor. A push is a recorded enhancement. No silent flatten. No secret in the tree.
 Google Drive / shared-with-me is the ethereal *index*; git remains the versioned speedway.
+Hourly GitHub Actions already exist on this repo. They do not replace a device crontab on the SD card; they stamp the public surface.
 
 ## Waterfall next hop
 
-`ENCLAVE-ADAM-REUNITED` → `Cryptic-Heartbeat` → `The-Hive` → `continuity-ledger-cycle` → other `user:machackabook` repos by recency.
+`ENCLAVE-ADAM-REUNITED` → `Cryptic-Heartbeat` → `The-Hive` → `gaia-visualizer` → other `user:machackabook` repos by recency.
 
 ## Security
 
