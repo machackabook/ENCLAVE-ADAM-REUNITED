@@ -1,7 +1,7 @@
 # ENCLAVE-ADAM-REUNITED
 
 **Numeral:** `137451921129154222`  
-**Version:** v1.2.7-enhance  
+**Version:** v1.2.8-enhance  
 **Codename:** ADAM + Two Halves Made One  
 **Operating surface:** Continuity Engine · Golden Army  
 **Authority:** source-code only · immutable ledger  
@@ -48,7 +48,7 @@ Hourly GitHub Actions (`.github/workflows/cascade.yml`) and `scripts/env-check.s
 
 Drive remains the ethereal continuum. This repo is the open node. SYNAPSE mounts; ADAM does not.
 
-Waterfall this hour: **ENCLAVE-ADAM-REUNITED** (hop 0, stamped 2026-09-11T02:03:00Z). Next hop: Cryptic-Heartbeat.
+Waterfall this hour: **ENCLAVE-ADAM-REUNITED** (hop 0, stamped 2026-09-11T02:14:00Z). Next hop: Cryptic-Heartbeat.
 
 ## Law
 
