@@ -7,7 +7,7 @@ Numeral **137451921129154222**. Sole intended open Enclave surface.
 
 This repo is the open surface of the Continuity mesh.
 Team Enhance writes small, reversible commits. Meta Advance walks the next repo. Equalizer keeps format tight.
-Last enhance stamp: `2026-09-11T23:02:00Z` (STAGE 59).
+Last enhance stamp: `2026-09-11T23:20:00Z` (STAGE 60).
 
 | Surface | Path |
 | --- | --- |
@@ -25,12 +25,12 @@ Last enhance stamp: `2026-09-11T23:02:00Z` (STAGE 59).
 A pull is a sensor. A push is a recorded enhancement. No silent flatten. No secret in the tree.
 Google Drive / shared-with-me is the ethereal *index*; git remains the versioned speedway.
 Hourly GitHub Actions stamp the public surface. Device crontab on the SD card is a separate sensor, not a replacement.
-`.github/workflows/cascade.yml` remains scheduled with contents:write and no token material in the file.
+`.github/workflows/cascade.yml` remains scheduled (`cron: "21 * * * *"`) with contents:write and no token material in the file.
 
 ## Waterfall next hop
 
-`ENCLAVE-ADAM-REUNITED` → `Cryptic-Heartbeat` → `The-Hive` → `gaia-visualizer` → other `user:machackabook` repos by recency.
-This hour touched Enclave + visualizer + Hive. Next hour: Cryptic-Heartbeat security and README equalize.
+`ENCLAVE-ADAM-REUNITED` → `Cryptic-Heartbeat` → `The-Hive` → `continuity-ledger-cycle` → other `user:machackabook` repos by recency.
+This hour touched Enclave only. Next hour: Cryptic-Heartbeat README + cascade health.
 
 ## Security
 
