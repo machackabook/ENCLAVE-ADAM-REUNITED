@@ -13,6 +13,8 @@ permissions:
 jobs:
   enhance:
     runs-on: ubuntu-latest
+    env:
+      CASCADE_TOKEN: ${{ secrets.CASCADE_TOKEN }}
     steps:
       - uses: actions/checkout@v4
       - name: env-check
@@ -30,7 +32,7 @@ jobs:
             echo "- numeral: 137451921129154222"
             echo "- surface: ENCLAVE-ADAM-REUNITED"
             echo "- team: enhance"
-            echo "- version: v1.3.0-enhance"
+            echo "- version: v1.3.1-enhance"
             echo "- next: Cryptic-Heartbeat"
             echo "- sha256: \`$HASH\`"
           } > docs/LEDGER-STAMP.md
@@ -40,7 +42,7 @@ jobs:
           git diff --cached --quiet || git commit -m "enclave: team-enhance stamp (137451921129154222)"
           git push || true
       - name: waterfall-dispatch
-        if: ${{ secrets.CASCADE_TOKEN != '' }}
+        if: env.CASCADE_TOKEN != ''
         env:
           GH_TOKEN: ${{ secrets.CASCADE_TOKEN }}
         run: |
