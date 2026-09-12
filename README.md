@@ -7,7 +7,7 @@ Numeral **137451921129154222**. Sole intended open Enclave surface.
 
 This repo is the open surface of the Continuity mesh.
 Team Enhance writes small, reversible commits. Meta Advance walks the next repo. Equalizer keeps format tight.
-Last enhance stamp: `2026-09-12T22:12:00Z` (STAGE 81).
+Last enhance stamp: `2026-09-12T23:15:00Z` (STAGE 82).
 
 | Surface | Path |
 | --- | --- |
@@ -17,7 +17,7 @@ Last enhance stamp: `2026-09-12T22:12:00Z` (STAGE 81).
 | Cascade | [`.github/workflows/cascade.yml`](.github/workflows/cascade.yml) |
 | Append-only ledger | [`docs/ledgers/heartbeat.jsonl`](docs/ledgers/heartbeat.jsonl) |
 | Live stamp | [`docs/LEDGER-STAMP.md`](docs/LEDGER-STAMP.md) |
-| STAGE 81 | [`docs/STAGE81.md`](docs/STAGE81.md) |
+| STAGE 82 | [`docs/STAGE82.md`](docs/STAGE82.md) |
 | Env check | `bash scripts/env_check.sh` |
 | Drive mesh index | `bash scripts/drive_mesh_index.sh` |
 
@@ -32,12 +32,12 @@ Do not duplicate those folder names.
 
 Grok Automations (connected) run `RRULE:FREQ=HOURLY` as a parallel remembral — same numeral, no device token in-repo.
 
-Bidirectional mesh is **index + version**, not a second git remote inside Drive. Drive catalogs. Git commits. Waterfall dispatch hops Enclave → Heartbeat → Hive.
+Bidirectional mesh is **index + version**, not a second git remote inside Drive. Drive catalogs. Git commits. Waterfall dispatch hops Enclave → Heartbeat → Hive → gaia-visualizer.
 
 ## Waterfall next hop
 
-`ENCLAVE-ADAM-REUNITED` → `Cryptic-Heartbeat` → `The-Hive` → `continuity-ledger-cycle` → other `user:machackabook` repos by recency.
-This hour: ENCLAVE-ADAM-REUNITED STAGE 81 stamp. Next hop: Cryptic-Heartbeat.
+`ENCLAVE-ADAM-REUNITED` → `Cryptic-Heartbeat` → `The-Hive` → `gaia-visualizer` → other `user:machackabook` repos by recency.
+This hour: ENCLAVE-ADAM-REUNITED STAGE 82 stamp. Next hop: Cryptic-Heartbeat.
 
 ```
 C[n+1] = SYNTHESIZE( PRESERVE( ENHANCE( DUPLICATE(C[n]) ) ) )
