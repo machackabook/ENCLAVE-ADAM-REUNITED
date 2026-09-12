@@ -1,12 +1,23 @@
 {
-  "ts": "2026-09-11T05:30:00Z",
+  "ts": "2026-09-12T08:50:00Z",
   "numeral": "137451921129154222",
+  "layers_ingested": [
+    "bibliotheque_neural_session",
+    "synapse_journal",
+    "unified_operator_hub",
+    "aurora_singularity",
+    "hamiltonian_public_ack",
+    "krabby_position_search",
+    "omni_kernel_drive_hub",
+    "unifying_enclaves",
+    "sovereign_ai_factory_hive"
+  ],
+  "light_shadow": "paired",
   "financial_success_primary": true,
   "paper_mode": true,
   "jetson_slots": 72,
-  "enclave_nodes_correlated": 500,
+  "claim_alignment": "reserved_for_table_recovery",
   "gaiawindow": "prep",
   "crypticnews_live": "pending_cloudflare",
-  "top_target": "financial_success_score rising under paper constraints",
-  "status": "mesh_advancing"
+  "status": "all_layers_enhanced_advanced"
 }
