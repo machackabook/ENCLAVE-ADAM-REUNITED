@@ -7,7 +7,7 @@ Numeral **137451921129154222**. Sole intended open Enclave surface.
 
 This repo is the open surface of the Continuity mesh.
 Team Enhance writes small, reversible commits. Meta Advance walks the next repo. Equalizer keeps format tight.
-Last enhance stamp: `2026-09-12T00:05:00Z` (STAGE 61).
+Last enhance stamp: `2026-09-12T00:23:00Z` (STAGE 62).
 
 | Surface | Path |
 | --- | --- |
@@ -17,6 +17,7 @@ Last enhance stamp: `2026-09-12T00:05:00Z` (STAGE 61).
 | Cascade | [`.github/workflows/cascade.yml`](.github/workflows/cascade.yml) |
 | Append-only ledger | [`docs/ledgers/heartbeat.jsonl`](docs/ledgers/heartbeat.jsonl) |
 | Live stamp | [`docs/LEDGER-STAMP.md`](docs/LEDGER-STAMP.md) |
+| Hour stamp | [`docs/LEDGER-2026-09-12-0023.md`](docs/LEDGER-2026-09-12-0023.md) |
 | Env check | `bash scripts/env_check.sh` |
 | Drive mesh index | `bash scripts/drive_mesh_index.sh` |
 
@@ -29,8 +30,8 @@ Hourly GitHub Actions stamp the public surface. Device crontab on the SD card is
 
 ## Waterfall next hop
 
-`ENCLAVE-ADAM-REUNITED` → `Cryptic-Heartbeat` → `The-Hive` → `continuity-ledger-cycle` → other `user:machackabook` repos by recency.
-This hour touched Enclave only. Next hour: Cryptic-Heartbeat README + cascade health.
+`ENCLAVE-ADAM-REUNITED` → `Cryptic-Heartbeat` → `The-Hive` → `gaia-visualizer` → other `user:machackabook` repos by recency.
+This hour touched Enclave + Hive + Gaia README ticks. Next hour: Cryptic-Heartbeat cascade health.
 
 ## Security
 
