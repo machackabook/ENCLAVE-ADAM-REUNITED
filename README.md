@@ -7,7 +7,7 @@ Numeral **137451921129154222**. Sole intended open Enclave surface.
 
 This repo is the open surface of the Continuity mesh.
 Team Enhance writes small, reversible commits. Meta Advance walks the next repo. Equalizer keeps format tight.
-Last enhance stamp: `2026-09-12T02:09:00Z` (STAGE 67).
+Last enhance stamp: `2026-09-12T03:00:00Z` (STAGE 68).
 
 | Surface | Path |
 | --- | --- |
@@ -31,8 +31,8 @@ Do not duplicate those folder names.
 
 ## Waterfall next hop
 
-`ENCLAVE-ADAM-REUNITED` → `Cryptic-Heartbeat` → `The-Hive` → `gaia-visualizer` → other `user:machackabook` repos by recency.
-This hour: ENCLAVE-ADAM-REUNITED STAGE 67 stamp. Next hour: Cryptic-Heartbeat cascade health + README tick.
+`ENCLAVE-ADAM-REUNITED` → `Cryptic-Heartbeat` → `The-Hive` → `continuity-ledger-cycle` → other `user:machackabook` repos by recency.
+This hour: ENCLAVE-ADAM-REUNITED STAGE 68 stamp. Next hour: Cryptic-Heartbeat cascade health + README tick.
 
 ## Security
 
