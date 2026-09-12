@@ -7,7 +7,7 @@ Numeral **137451921129154222**. Sole intended open Enclave surface.
 
 This repo is the open surface of the Continuity mesh.
 Team Enhance writes small, reversible commits. Meta Advance walks the next repo. Equalizer keeps format tight.
-Last enhance stamp: `2026-09-12T18:04:00Z` (STAGE 77).
+Last enhance stamp: `2026-09-12T19:10:00Z` (STAGE 78).
 
 | Surface | Path |
 | --- | --- |
@@ -17,7 +17,7 @@ Last enhance stamp: `2026-09-12T18:04:00Z` (STAGE 77).
 | Cascade | [`.github/workflows/cascade.yml`](.github/workflows/cascade.yml) |
 | Append-only ledger | [`docs/ledgers/heartbeat.jsonl`](docs/ledgers/heartbeat.jsonl) |
 | Live stamp | [`docs/LEDGER-STAMP.md`](docs/LEDGER-STAMP.md) |
-| STAGE 77 | [`docs/STAGE77.md`](docs/STAGE77.md) |
+| STAGE 78 | [`docs/STAGE78.md`](docs/STAGE78.md) |
 | Env check | `bash scripts/env_check.sh` |
 | Drive mesh index | `bash scripts/drive_mesh_index.sh` |
 
@@ -37,7 +37,7 @@ Bidirectional mesh is **index + version**, not a second git remote inside Drive.
 ## Waterfall next hop
 
 `ENCLAVE-ADAM-REUNITED` → `Cryptic-Heartbeat` → `The-Hive` → `continuity-ledger-cycle` → other `user:machackabook` repos by recency.
-This hour: ENCLAVE-ADAM-REUNITED STAGE 77 stamp. Next hop: Cryptic-Heartbeat STAGE 77 + cascade health.
+This hour: ENCLAVE-ADAM-REUNITED STAGE 78 stamp. Next hop: Cryptic-Heartbeat + Hive already aligned this cycle.
 
 ```
 C[n+1] = SYNTHESIZE( PRESERVE( ENHANCE( DUPLICATE(C[n]) ) ) )
