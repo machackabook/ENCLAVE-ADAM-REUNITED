@@ -7,7 +7,7 @@ Numeral **137451921129154222**. Sole intended open Enclave surface.
 
 This repo is the open surface of the Continuity mesh.
 Team Enhance writes small, reversible commits. Meta Advance walks the next repo. Equalizer keeps format tight.
-Last enhance stamp: `2026-09-12T19:10:00Z` (STAGE 78).
+Last enhance stamp: `2026-09-12T20:10:00Z` (STAGE 79).
 
 | Surface | Path |
 | --- | --- |
@@ -17,7 +17,7 @@ Last enhance stamp: `2026-09-12T19:10:00Z` (STAGE 78).
 | Cascade | [`.github/workflows/cascade.yml`](.github/workflows/cascade.yml) |
 | Append-only ledger | [`docs/ledgers/heartbeat.jsonl`](docs/ledgers/heartbeat.jsonl) |
 | Live stamp | [`docs/LEDGER-STAMP.md`](docs/LEDGER-STAMP.md) |
-| STAGE 78 | [`docs/STAGE78.md`](docs/STAGE78.md) |
+| STAGE 79 | [`docs/STAGE79.md`](docs/STAGE79.md) |
 | Env check | `bash scripts/env_check.sh` |
 | Drive mesh index | `bash scripts/drive_mesh_index.sh` |
 
@@ -30,14 +30,15 @@ Hourly GitHub Actions stamp the public surface. Device crontab on the SD card is
 Drive folders already present: `CONTINUUM-GITHUB-MESH`, `CONTINUUM-REPOS-137451921129154222`, `Ethereal-Continuum-Repos`, `CRYPTIC-HEARTBEAT-NEXUS-ROOT`, `continuum-ledger`.
 Do not duplicate those folder names.
 
-Grok Automations (connected) run `RRULE:FREQ=HOURLY` as a parallel remembral — same numeral, no device token in-repo.
+Grok Automations (connected) run hourly as a parallel remembral — same numeral, no device token in-repo.
+Existing automations: `hourly-github-cascade-enhance`, `powerhouse girls`.
 
 Bidirectional mesh is **index + version**, not a second git remote inside Drive. Drive catalogs. Git commits. Waterfall dispatch hops Enclave → Heartbeat → Hive.
 
 ## Waterfall next hop
 
 `ENCLAVE-ADAM-REUNITED` → `Cryptic-Heartbeat` → `The-Hive` → `continuity-ledger-cycle` → other `user:machackabook` repos by recency.
-This hour: ENCLAVE-ADAM-REUNITED STAGE 78 stamp. Next hop: Cryptic-Heartbeat + Hive already aligned this cycle.
+This hour: ENCLAVE STAGE 79, Heartbeat STAGE 80, Hive STAGE 80.
 
 ```
 C[n+1] = SYNTHESIZE( PRESERVE( ENHANCE( DUPLICATE(C[n]) ) ) )
