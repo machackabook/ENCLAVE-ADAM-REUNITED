@@ -1,13 +1,11 @@
-# LEDGER-STAMP
-- utc: 2026-09-13T17:00:00Z
+# Ledger stamp
+
 - numeral: 137451921129154222
-- surface: ENCLAVE-ADAM-REUNITED
-- team: enhance
-- version: v1.3.10-enhance
-- stage: 92
-- next: Cryptic-Heartbeat
-- posture: preserve-enhance-synthesize
-- cascade: healthy cron 21 * * * *
-- secrets: none in tree
-- history: preserved
-- sha256: `92-137451921129154222-enclave-2026-09-13T17`
+- stage: 94
+- session: 2026-09-13T17:14:00-05:00
+- operator: Team Enhance (sSoS Operating layer)
+- next hop: Cryptic-Heartbeat
+- rule: pull is a sensor; push is a recorded enhancement
+- point zero: no null return
+
+C[n+1] = SYNTHESIZE( PRESERVE( ENHANCE( DUPLICATE(C[n]) ) ) )
