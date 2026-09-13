@@ -7,7 +7,7 @@ Numeral **137451921129154222**. Sole intended open Enclave surface.
 
 This repo is the open surface of the Continuity mesh.
 Team Enhance writes small, reversible commits. Meta Advance walks the next repo. Equalizer keeps format tight.
-Last enhance stamp: `2026-09-13T20:15:00Z` (STAGE 98).
+Last enhance stamp: `2026-09-13T22:13:00Z` (STAGE 100).
 
 | Surface | Path |
 | --- | --- |
@@ -17,7 +17,7 @@ Last enhance stamp: `2026-09-13T20:15:00Z` (STAGE 98).
 | Cascade | [`.github/workflows/cascade.yml`](.github/workflows/cascade.yml) |
 | Append-only ledger | [`docs/ledgers/heartbeat.jsonl`](docs/ledgers/heartbeat.jsonl) |
 | Live stamp | [`docs/LEDGER-STAMP.md`](docs/LEDGER-STAMP.md) |
-| Stage 98 | [`docs/STAGE98.md`](docs/STAGE98.md) |
+| Stage 100 | [`docs/STAGE100.md`](docs/STAGE100.md) |
 | Env check | `bash scripts/env_check.sh` |
 | Drive mesh index | `bash scripts/drive_mesh_index.sh` |
 
@@ -28,8 +28,8 @@ Google Drive / shared-with-me is the ethereal *index*; git remains the versioned
 Hourly GitHub Actions stamp the public surface. Device crontab on the SD card is a separate sensor, not a replacement.
 `.github/workflows/cascade.yml` remains scheduled (`cron: "21 * * * *"`) with contents:write and no token material in the file.
 Cascade health this hour: **healthy** (schedule + workflow_dispatch + repository_dispatch, contents:write only).
-Drive folders already present: `CONTINUUM-GITHUB-MESH` (`1FfZuLbRRDNSnw2qxSayebL2KIrYmiS1H`), `CONTINUUM-REPOS-137451921129154222`, `Ethereal-Continuum-Repos`, `CRYPTIC-HEARTBEAT-NEXUS-ROOT`, `continuum-ledger`.
-Do not duplicate those folder names.
+Drive folders already present: `CONTINUUM-GITHUB-MESH`, `CONTINUUM-REPOS-137451921129154222`, `Ethereal-Continuum-Repos`, `CRYPTIC-HEARTBEAT-NEXUS-ROOT`, `continuum-ledger`.
+Do not duplicate those folder names. Folder IDs stay off the public README body when not required.
 
 Grok Automations (connected) run `RRULE:FREQ=HOURLY` as a parallel remembral — same numeral, no device token in-repo.
 
@@ -38,7 +38,7 @@ Bidirectional mesh is **index + version**, not a second git remote inside Drive.
 ## Waterfall next hop
 
 `ENCLAVE-ADAM-REUNITED` → `Cryptic-Heartbeat` → `The-Hive` → `continuity-ledger-cycle` → other `user:machackabook` repos by recency.
-This hour: ENCLAVE-ADAM-REUNITED STAGE 98 stamp. Next hop: Cryptic-Heartbeat.
+This hour: ENCLAVE-ADAM-REUNITED STAGE 100 stamp. Next hop: Cryptic-Heartbeat.
 
 ```
 C[n+1] = SYNTHESIZE( PRESERVE( ENHANCE( DUPLICATE(C[n]) ) ) )
