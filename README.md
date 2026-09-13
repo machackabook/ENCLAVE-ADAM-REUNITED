@@ -7,7 +7,7 @@ Numeral **137451921129154222**. Sole intended open Enclave surface.
 
 This repo is the open surface of the Continuity mesh.
 Team Enhance writes small, reversible commits. Meta Advance walks the next repo. Equalizer keeps format tight.
-Last enhance stamp: `2026-09-13T17:14:00Z` (STAGE 94).
+Last enhance stamp: `2026-09-13T20:09:00Z` (STAGE 97).
 
 | Surface | Path |
 | --- | --- |
@@ -37,7 +37,7 @@ Bidirectional mesh is **index + version**, not a second git remote inside Drive.
 ## Waterfall next hop
 
 `ENCLAVE-ADAM-REUNITED` → `Cryptic-Heartbeat` → `The-Hive` → `continuity-ledger-cycle` → other `user:machackabook` repos by recency.
-This hour: ENCLAVE-ADAM-REUNITED STAGE 94 stamp. Next hop: Cryptic-Heartbeat.
+This hour: ENCLAVE-ADAM-REUNITED STAGE 97 stamp. Next hop: Cryptic-Heartbeat.
 
 ```
 C[n+1] = SYNTHESIZE( PRESERVE( ENHANCE( DUPLICATE(C[n]) ) ) )
