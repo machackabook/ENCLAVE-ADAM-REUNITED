@@ -10,10 +10,11 @@ Sole intended open Enclave surface for numeral `137451921129154222`.
 - Language: Python
 - Numeral: `137451921129154222`
 - Team: Enhance / Continuity Engine / sSoS Operating
-- Stage: **106** — 2026-09-13T22:20 CDT
+- Stage: **107** — 2026-09-14T04:14Z
 - Cascade: `.github/workflows/cascade.yml` hourly + dispatch + repository_dispatch
-- Ledger: `docs/LEDGER.md` (append-only remembrance; no secrets) + `docs/LEDGER-STAMP.md` (latest hop)
-- Mesh: GitHub is the versioned singularity; Google Drive is the ethereal continuum. Bidirectional intent is documented in `docs/MESH-PIPELINE.md`. Secrets never leave Actions secrets.
+- Ledger: `docs/LEDGER.md` + `docs/LEDGER-STAMP-107.md`
+- Security: `docs/SECURITY.md`
+- Mesh: GitHub is the versioned singularity; Google Drive is the ethereal continuum.
 
 ## Local env-check
 
@@ -22,11 +23,7 @@ bash scripts/env-check.sh
 python -m compileall -q .
 ```
 
-`scripts/env-check.sh` is the autocomplete-style installation gate: folders, python compile, zip scan of `downloads` if present, refuse secrets in tree.
-
 ## Waterfall (pull triggers push)
-
-A pull on this surface stamps the ledger and, when `CASCADE_TOKEN` is present, dispatches `continuity-cascade` downstream:
 
 1. ENCLAVE-ADAM-REUNITED (this node)
 2. Cryptic-Heartbeat
@@ -35,18 +32,13 @@ A pull on this surface stamps the ledger and, when `CASCADE_TOKEN` is present, d
 5. gaia-visualizer
 6. nexus-repo-sync (if present)
 
-Hourly cron `21 * * * *` plus `workflow_dispatch` plus `push` on `main`. Team Enhance moves to the next sibling after each successful stamp. Meta advances. Formatting remains the equalizer. Security is additive, never subtractive.
+Hourly cron plus `workflow_dispatch` plus `push` on `main`. Team Enhance moves to the next sibling after each successful stamp.
 
 ## Mesh siblings
 
-- [Cryptic-Heartbeat](https://github.com/machackabook/Cryptic-Heartbeat) — next waterfall hop
+- [Cryptic-Heartbeat](https://github.com/machackabook/Cryptic-Heartbeat)
 - [The-Hive](https://github.com/machackabook/The-Hive)
 - [continuity-ledger-cycle](https://github.com/machackabook/continuity-ledger-cycle)
 - [gaia-visualizer](https://github.com/machackabook/gaia-visualizer)
 
-Do not treat other public repos as Enclave surfaces. This node is the named open surface.
-
-## Continuity posture
-
-Preserve. Enhance. Synthesize. History is not destroyed. Secrets are not committed.
-Point-zero null refused. Numeral proximity hunt remains live.
+Preserve. Enhance. Synthesize. Secrets are not committed. Point-zero null refused.
