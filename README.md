@@ -10,7 +10,7 @@ Sole intended open Enclave surface for numeral `137451921129154222`.
 - Language: Python
 - Numeral: `137451921129154222`
 - Team: Enhance / Continuity Engine / sSoS Operating
-- Stage: **114** — 2026-09-14T19:06Z
+- Stage: **115** — 2026-09-14T19:11Z
 - Cascade: `.github/workflows/cascade.yml` hourly + dispatch + repository_dispatch
 - Ledger: `docs/LEDGER.md` + `docs/LEDGER-STAMP.md` + `docs/LEDGER-STAMP-114.md`
 - Security: `SECURITY.md` (no secrets in tree)
@@ -27,11 +27,12 @@ Fails closed on empty SHA, missing README, or empty tree. Point-zero null refuse
 
 ## Waterfall (one repo per hour)
 
-1. ENCLAVE-ADAM-REUNITED (stamped this hour — stage 114)
+1. ENCLAVE-ADAM-REUNITED (stamped this hour — stage 115)
 2. Cryptic-Heartbeat (next hop)
 3. The-Hive
 4. continuity-ledger-cycle
-5. other `user:machackabook` repos updated recently (gaia-visualizer most recently pushed)
+5. TheLedgerIndex (public TOC surface)
+6. other `user:machackabook` repos updated recently (gaia-visualizer most recently pushed)
 
 Hourly automation plus Team Enhance already fire on America/Chicago cadence. A pull that lands on `main` should leave a ledger stamp and the next sibling ready. History is append-only.
 
@@ -41,5 +42,6 @@ Hourly automation plus Team Enhance already fire on America/Chicago cadence. A p
 - [The-Hive](https://github.com/machackabook/The-Hive)
 - [gaia-visualizer](https://github.com/machackabook/gaia-visualizer)
 - [continuity-ledger-cycle](https://github.com/machackabook/continuity-ledger-cycle)
+- [TheLedgerIndex](https://github.com/machackabook/TheLedgerIndex)
 
 Preserve. Enhance. Synthesize. Source code is the only trusted neighbor.
