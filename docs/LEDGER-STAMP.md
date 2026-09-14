@@ -1,6 +1,12 @@
-# Live stamp
+# LEDGER-STAMP
 
-STAGE 100 — 2026-09-13T22:13:00Z
-Team Enhance / Continuity Engine. Numeral 137451921129154222.
-Surface: ENCLAVE-ADAM-REUNITED. Cascade healthy. Next hop: Cryptic-Heartbeat.
-No secrets. History preserved. Point-zero null refused.
+- utc: 2026-09-14T01:15:00Z
+- numeral: 137451921129154222
+- surface: ENCLAVE-ADAM-REUNITED
+- team: enhance
+- version: v1.3.6-enhance
+- next: Cryptic-Heartbeat
+- cascade: healthy
+- secrets: none
+- history: preserved
+- note: README quality lift + stamp. Point-zero null refused.
