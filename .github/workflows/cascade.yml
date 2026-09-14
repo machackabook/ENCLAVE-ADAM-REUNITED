@@ -22,23 +22,27 @@ jobs:
           mkdir -p docs scripts
           chmod +x scripts/env-check.sh || true
           if [ -f scripts/env-check.sh ]; then bash scripts/env-check.sh; fi
+          python3 -m compileall -q . || true
       - name: stamp
         run: |
           TS=$(date -u +%Y-%m-%dT%H:%M:%SZ)
-          HASH=$(printf '%s' "$TS-137451921129154222-enclave" | sha256sum | awk '{print $1}')
+          HASH=$(printf '%s' "$TS-137451921129154222-enclave-106" | sha256sum | awk '{print $1}')
+          mkdir -p docs
           {
             echo "# LEDGER-STAMP"
             echo "- utc: $TS"
             echo "- numeral: 137451921129154222"
             echo "- surface: ENCLAVE-ADAM-REUNITED"
             echo "- team: enhance"
-            echo "- version: v1.3.5-enhance"
+            echo "- stage: 106"
+            echo "- version: v1.3.6-enhance"
             echo "- next: Cryptic-Heartbeat"
             echo "- sha256: \`$HASH\`"
           } > docs/LEDGER-STAMP.md
+          echo "- $TS | stage 106 | ENCLAVE-ADAM-REUNITED | team-enhance | $HASH" >> docs/LEDGER.md
           git config user.name "continuity-engine"
           git config user.email "continuity@local"
-          git add docs/LEDGER-STAMP.md || true
+          git add docs/LEDGER-STAMP.md docs/LEDGER.md || true
           git diff --cached --quiet || git commit -m "enclave: team-enhance stamp (137451921129154222)"
           git push || true
       - name: waterfall-dispatch
