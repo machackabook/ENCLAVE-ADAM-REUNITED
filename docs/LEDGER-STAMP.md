@@ -1,9 +1,10 @@
 # LEDGER-STAMP
-- utc: 2026-09-14T03:20:00Z
+- utc: 2026-09-14T05:05:00Z
 - numeral: 137451921129154222
 - surface: ENCLAVE-ADAM-REUNITED
 - team: enhance
-- stage: 106
-- version: v1.3.6-enhance
+- stage: 108
+- version: v1.3.8-enhance
 - next: Cryptic-Heartbeat
-- sha256: `stage106-enclave-mesh-pipeline`
+- sha256: `stage108-enclave-waterfall-align`
+- note: README + cascade stage numbers reunited; secrets not committed; history preserved

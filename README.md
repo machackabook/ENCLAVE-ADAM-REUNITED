@@ -10,10 +10,10 @@ Sole intended open Enclave surface for numeral `137451921129154222`.
 - Language: Python
 - Numeral: `137451921129154222`
 - Team: Enhance / Continuity Engine / sSoS Operating
-- Stage: **107** — 2026-09-14T04:14Z
+- Stage: **108** — 2026-09-14T05:05Z
 - Cascade: `.github/workflows/cascade.yml` hourly + dispatch + repository_dispatch
-- Ledger: `docs/LEDGER.md` + `docs/LEDGER-STAMP-107.md`
-- Security: `docs/SECURITY.md`
+- Ledger: `docs/LEDGER.md` + `docs/LEDGER-STAMP.md`
+- Security: `docs/SECURITY.md` (no secrets in tree)
 - Mesh: GitHub is the versioned singularity; Google Drive is the ethereal continuum.
 
 ## Local env-check
@@ -23,16 +23,15 @@ bash scripts/env-check.sh
 python -m compileall -q .
 ```
 
-## Waterfall (pull triggers push)
+## Waterfall (one repo per hour)
 
-1. ENCLAVE-ADAM-REUNITED (this node)
+1. ENCLAVE-ADAM-REUNITED (this node — current)
 2. Cryptic-Heartbeat
 3. The-Hive
 4. continuity-ledger-cycle
-5. gaia-visualizer
-6. nexus-repo-sync (if present)
+5. other `user:machackabook` repos updated recently
 
-Hourly cron plus `workflow_dispatch` plus `push` on `main`. Team Enhance moves to the next sibling after each successful stamp.
+Hourly cron plus `workflow_dispatch` plus `push` on `main`. Team Enhance moves to the next sibling after each successful stamp. History is append-only.
 
 ## Mesh siblings
 
