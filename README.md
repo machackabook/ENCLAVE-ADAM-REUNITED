@@ -10,7 +10,7 @@ Sole intended open Enclave surface for numeral `137451921129154222`.
 - Language: Python
 - Numeral: `137451921129154222`
 - Team: Enhance / Continuity Engine / sSoS Operating
-- Stage: **110** — 2026-09-14T08:12Z
+- Stage: **111** — 2026-09-14T10:01Z
 - Cascade: `.github/workflows/cascade.yml` hourly + dispatch + repository_dispatch
 - Ledger: `docs/LEDGER.md` + `docs/LEDGER-STAMP.md`
 - Security: `SECURITY.md` + `docs` (no secrets in tree)
@@ -31,7 +31,7 @@ python -m compileall -q .
 4. continuity-ledger-cycle
 5. other `user:machackabook` repos updated recently
 
-Hourly cron plus `workflow_dispatch` plus `push` on `main`. Team Enhance moves to the next sibling after each successful stamp. History is append-only.
+Hourly cron plus `workflow_dispatch` plus `push` on `main`. Team Enhance moves to the next sibling after each successful stamp. History is append-only. Secrets stay out of the tree.
 
 ## Mesh siblings
 
@@ -40,4 +40,4 @@ Hourly cron plus `workflow_dispatch` plus `push` on `main`. Team Enhance moves t
 - [continuity-ledger-cycle](https://github.com/machackabook/continuity-ledger-cycle)
 - [gaia-visualizer](https://github.com/machackabook/gaia-visualizer)
 
-Preserve. Enhance. Synthesize. Secrets are not committed. Point-zero null refused.
+Preserve. Enhance. Synthesize. Point-zero null refused.
