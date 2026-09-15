@@ -1,7 +1,5 @@
-# LEDGER STAMP (current)
+# LEDGER-STAMP
 
-Stage **129** — 2026-09-15T20:01Z
-Repo: ENCLAVE-ADAM-REUNITED
-Numeral: 137451921129154222
-Waterfall next: Cryptic-Heartbeat → The-Hive → continuity-ledger-cycle
-Secrets: never in tree. CASCADE_TOKEN catalogued off-tree.
+Current stage: **130** (2026-09-15T20:08Z)
+See `docs/LEDGER-STAMP-130.md`.
+Numeral `137451921129154222`.
