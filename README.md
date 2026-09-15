@@ -5,36 +5,37 @@ Sole intended open Enclave surface for numeral `137451921129154222`.
 
 ## Status
 
-- Owner: `machackabook`
+- Owner: `machackabook` (id 219579651)
 - Branch: `main`
 - Language: Python
 - Numeral: `137451921129154222`
 - Team: Enhance / Continuity Engine / sSoS Operating
-- Stage: **118** — 2026-09-15T01:18Z
-- Cascade: `.github/workflows/cascade.yml` hourly + dispatch + repository_dispatch (left healthy)
-- Ledger: `docs/LEDGER.md` + `docs/LEDGER-STAMP.md` + `docs/LEDGER-STAMP-118.md`
-- Security: `SECURITY.md` (no secrets in tree)
-- Mesh: GitHub is the versioned singularity; Drive folder `CONTINUUM-GITHUB-MESH` is the ethereal continuum.
+- Stage: **119** — 2026-09-15T01:21Z (America/Chicago cycle)
+- Cascade: `.github/workflows/cascade.yml` + `continuity-hourly-cascade.yml` + `tikemachine-hourly.yml`
+- Ledger: `docs/LEDGER.md` + `docs/MESH-PIPELINE-119.md`
+- Security: `SECURITY.md` (no secrets in tree; CASCADE_PAT remains an unknown until operator injects it)
+- Mesh: GitHub is the versioned singularity. Drive folder Continuity-Ethereal-Repos (`1KEnaM9T7rBO6Jc9AyHzWbtJeEqzck2F1`) is the ethereal continuum.
 
 ## Local env-check
 
 ```bash
 bash scripts/env-check.sh
+bash scripts/mesh-env-check.sh
 python -m compileall -q .
 ```
 
 Fails closed on empty SHA, missing README, or empty tree. Point-zero null refused.
 
-## Waterfall (one repo per hour)
+## Waterfall (one repo per enhance hop)
 
-1. ENCLAVE-ADAM-REUNITED (stamped this hour — stage 118)
+1. ENCLAVE-ADAM-REUNITED (stamped this hour — stage 119)
 2. Cryptic-Heartbeat (next hop)
 3. The-Hive
-4. continuity-ledger-cycle
-5. TheLedgerIndex (public TOC surface)
-6. other `user:machackabook` repos updated recently
+4. gaia-visualizer
+5. continuity-ledger-cycle / TheLedgerIndex
+6. other `user:machackabook` surfaces updated recently
 
-Hourly automation plus Team Enhance fire on America/Chicago cadence. A pull that lands on `main` should leave a ledger stamp and the next sibling ready. History is append-only.
+A pull that lands on `main` should leave a ledger stamp. Sibling hops require `CASCADE_PAT` (not present this cycle — catalogued, not invented).
 
 ## Mesh siblings
 
