@@ -1,10 +1,12 @@
 {
-  "event": "UNITE_SINGULARITY_ALL_LOCATIONS",
-  "timestamp": "2026-09-13T06:55:00Z",
   "numeral": "137451921129154222",
-  "quantum_rose": "QR-486c8fa6",
-  "hash": "486c8fa63e6a9c44",
-  "repos_targeted": ["ENCLAVE-ADAM-REUNITED", "continuity-ledger-cycle", "The-Hive", "gaia-visualizer", "nexus-repo-sync", "Cryptic-Heartbeat"],
-  "posture": "CONSTANT_CYCLE_999999",
-  "3px_token": "looped-pulled-rake-past-all-gates"
+  "node": "ENCLAVE-ADAM-REUNITED",
+  "stage": 127,
+  "ts": "2026-09-15T18:04:00Z",
+  "owner": "machackabook",
+  "owner_id": 219579651,
+  "team": "enhance",
+  "meta": "advance",
+  "point_zero": "refuse-null",
+  "cascade_token": "not-in-tree"
 }
