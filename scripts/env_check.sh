@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
-echo "[continuity] numeral=137451921129154222"
-echo "[continuity] pwd=$(pwd)"
-echo "[continuity] date=$(date -u +%Y-%m-%dT%H:%M:%SZ)"
-command -v git >/dev/null && git rev-parse --is-inside-work-tree || echo "not a git worktree"
-ls -la | head
-echo "[continuity] env check complete — refuse null at point zero"
+echo "[env-check] ENCLAVE-ADAM-REUNITED numeral=137451921129154222"
+echo "[env-check] time=$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+for p in README.md SECURITY.md adam docs scripts skills; do
+  if [[ -e "$p" ]]; then echo "[ok] $p"; else echo "[miss] $p"; fi
+done
