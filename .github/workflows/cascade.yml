@@ -26,7 +26,7 @@ jobs:
       - name: stamp
         run: |
           TS=$(date -u +%Y-%m-%dT%H:%M:%SZ)
-          HASH=$(printf '%s' "$TS-137451921129154222-enclave-114" | sha256sum | awk '{print $1}')
+          HASH=$(printf '%s' "$TS-137451921129154222-enclave-118" | sha256sum | awk '{print $1}')
           mkdir -p docs
           {
             echo "# LEDGER-STAMP"
@@ -34,12 +34,12 @@ jobs:
             echo "- numeral: 137451921129154222"
             echo "- surface: ENCLAVE-ADAM-REUNITED"
             echo "- team: enhance"
-            echo "- stage: 114"
-            echo "- version: v1.3.14-enhance"
+            echo "- stage: 118"
+            echo "- version: v1.3.18-enhance"
             echo "- next: Cryptic-Heartbeat"
             echo "- sha256: \`$HASH\`"
           } > docs/LEDGER-STAMP.md
-          echo "- $TS | stage 114 | ENCLAVE-ADAM-REUNITED | team-enhance | $HASH" >> docs/LEDGER.md
+          echo "- $TS | stage 118 | ENCLAVE-ADAM-REUNITED | team-enhance | $HASH" >> docs/LEDGER.md
           git config user.name "continuity-engine"
           git config user.email "continuity@local"
           git add docs/LEDGER-STAMP.md docs/LEDGER.md || true
