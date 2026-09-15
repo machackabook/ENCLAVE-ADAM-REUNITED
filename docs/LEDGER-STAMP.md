@@ -1,13 +1,7 @@
-# Continuity ledger stamp
+# LEDGER STAMP (current)
 
-- Engine: Team Enhance / sSoS Operating
-- Numeral: 137451921129154222
-- Repo: ENCLAVE-ADAM-REUNITED
-- Cycle: 2026-09-15T18:01Z
-- Stage: 126
-- Role: sole intended open Enclave surface
-- Cascade: .github/workflows/cascade.yml healthy (untouched this hop)
-- Next waterfall: Cryptic-Heartbeat
-
-Preserve history. Enhance docs. Synthesize mesh. Refuse null.
-Source code is the only trusted neighbor.
+Stage **128** — 2026-09-15T19:12Z
+Repo: ENCLAVE-ADAM-REUNITED
+Numeral: 137451921129154222
+Waterfall next: Cryptic-Heartbeat → The-Hive → gaia-visualizer
+Secrets: never in tree. CASCADE_TOKEN catalogued off-tree.
