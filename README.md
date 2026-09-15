@@ -10,9 +10,9 @@ Sole intended open Enclave surface for numeral `137451921129154222`.
 - Language: Python
 - Numeral: `137451921129154222`
 - Team: Enhance / Continuity Engine / sSoS Operating
-- Stage: **120** — 2026-09-15T02:00Z
+- Stage: **121** — 2026-09-15T04:00Z
 - Cascade: `.github/workflows/cascade.yml` + hourly continuity workflows
-- Ledger: `docs/LEDGER.md` + `docs/MESH-PIPELINE-120.md`
+- Ledger: `docs/LEDGER.md` + `docs/MESH-PIPELINE-121.md` + `docs/LEDGER-STAMP-121.md`
 - Security: `SECURITY.md` (no secrets in tree; `CASCADE_PAT` remains unknown until operator injects it)
 - Mesh: GitHub is the versioned singularity. Drive folder Continuity-Ethereal-Repos (`1KEnaM9T7rBO6Jc9AyHzWbtJeEqzck2F1`) is the ethereal continuum.
 
@@ -28,10 +28,10 @@ Fails closed on empty SHA, missing README, or empty tree. Point-zero null refuse
 
 ## Waterfall (one repo per enhance hop)
 
-1. ENCLAVE-ADAM-REUNITED (stamped this hour — stage 120)
-2. Cryptic-Heartbeat (next hop)
-3. The-Hive
-4. gaia-visualizer
+1. ENCLAVE-ADAM-REUNITED (stamped this hour — stage 121)
+2. Cryptic-Heartbeat (hop stamped)
+3. The-Hive (hop stamped)
+4. gaia-visualizer (cycle close stamped)
 5. continuity-ledger-cycle / TheLedgerIndex
 6. other `user:machackabook` surfaces updated recently
 
