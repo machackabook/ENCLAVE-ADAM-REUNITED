@@ -1,0 +1,54 @@
+name: team-enhance-cascade
+
+on:
+  schedule:
+    - cron: "0 7 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "docs/**"
+      - "scripts/**"
+      - ".github/workflows/team-enhance-hourly.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  stamp:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: env check
+        run: bash scripts/env_check.sh
+      - name: write cascade pulse
+        run: |
+          mkdir -p docs
+          python3 - <<'PY'
+          import json, os, datetime
+          pulse = {
+            "numeral": "137451921129154222",
+            "repo": "ENCLAVE-ADAM-REUNITED",
+            "role": "hub",
+            "utc": datetime.datetime.utcnow().replace(microsecond=0).isoformat() + "Z",
+            "event": os.environ.get("GITHUB_EVENT_NAME", "unknown"),
+            "sha": os.environ.get("GITHUB_SHA", ""),
+            "note": "Team Enhance pulse. No cross-repo force push."
+          }
+          path = "docs/CASCADE_PULSE.json"
+          with open(path, "w") as f:
+              json.dump(pulse, f, indent=2)
+              f.write("\n")
+          print("wrote", path)
+          PY
+      - name: commit pulse if changed
+        run: |
+          git config user.name "team-enhance[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/CASCADE_PULSE.json docs/TEAM_ENHANCE_CASCADE.md scripts/env_check.sh || true
+          if git diff --cached --quiet; then
+            echo "no pulse change"
+          else
+            git commit -m "team-enhance: cascade pulse $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi
