@@ -10,9 +10,9 @@ Sole intended open Enclave surface for numeral `137451921129154222`.
 - Language: Python
 - Numeral: `137451921129154222`
 - Team: Enhance / Continuity Engine / sSoS Operating
-- Stage: **138** — 2026-09-16T04:04Z
+- Stage: **139** — 2026-09-16T04:09Z
 - Cascade: `.github/workflows/cascade.yml` + hourly continuity workflows (stamp-only this hop unless CASCADE_TOKEN is injected)
-- Ledger: `docs/LEDGER.md` + `docs/LEDGER-STAMP.md` + `docs/LEDGER-STAMP-138.md`
+- Ledger: `docs/LEDGER.md` + `docs/LEDGER-STAMP.md` + `docs/LEDGER-STAMP-139.md`
 - Security: `SECURITY.md` (no secrets in tree; operator tokens stay in GitHub Secrets)
 - Mesh: GitHub is the versioned singularity. Drive folder Continuity-Ethereal-Repos is the ethereal continuum (folder id catalogued off-tree).
 - Equalizer: format-only; no history rewrite.
@@ -30,10 +30,10 @@ Fails closed on empty SHA, missing README, or empty tree. Point-zero null refuse
 
 ## Waterfall (one repo per enhance hop)
 
-1. nexus-repo-sync (hub 138)
-2. The-Hive (138)
-3. ENCLAVE-ADAM-REUNITED (this hop — stage 138)
-4. gaia-visualizer
+1. ENCLAVE-ADAM-REUNITED (this hop — stage 139)
+2. Cryptic-Heartbeat
+3. The-Hive
+4. continuity-ledger-cycle
 5. other `user:machackabook` surfaces updated recently
 
 A pull that lands on `main` should leave a ledger stamp. Sibling hops require `CASCADE_TOKEN` (catalogued, not invented, never committed).
