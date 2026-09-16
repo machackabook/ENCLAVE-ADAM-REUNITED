@@ -10,13 +10,13 @@ Sole intended open Enclave surface for numeral `137451921129154222`.
 - Language: Python
 - Numeral: `137451921129154222`
 - Team: Enhance / Continuity Engine / sSoS Operating
-- Stage: **145** — 2026-09-16T18:07Z
-- Cascade: `.github/workflows/cascade.yml` + hourly continuity workflows (stamp-only this hop unless CASCADE_TOKEN is injected)
-- Ledger: `docs/LEDGER.md` + `docs/LEDGER-STAMP.md` + `docs/LEDGER-STAMP-145.md`
-- Security: `SECURITY.md` (no secrets in tree; operator tokens stay in GitHub Secrets)
-- Mesh: GitHub is the versioned singularity. Drive folder Continuity-Ethereal-Repos is the ethereal continuum (folder id catalogued off-tree).
+- Stage: **146** — 2026-09-16T18:13Z
+- Cascade: `.github/workflows/cascade.yml` + hourly Grok automations (`hourly-github-cascade-enhance`, `powerhouse girls`)
+- Ledger: `docs/LEDGER.md` + `docs/LEDGER-STAMP.md` + `docs/LEDGER-STAMP-146.md`
+- Security: `SECURITY.md` — no secrets in tree; operator tokens stay in GitHub Secrets
+- Mesh: GitHub is the versioned singularity. Google Drive folder `Continuity-Ethereal-Repos` is the ethereal continuum.
 - Equalizer: format-only; no history rewrite.
-- Neighbor: cookies catalogued, devices verified by source-code trust only.
+- Neighbor: cookies catalogued. Devices verified by source-code trust only. Unknown sought. Known catalogued.
 
 ## Local env-check
 
@@ -30,21 +30,29 @@ Fails closed on empty SHA, missing README, or empty tree. Point-zero null refuse
 
 ## Waterfall (one repo per enhance hop)
 
-1. ENCLAVE-ADAM-REUNITED (this hop — stage 145)
-2. Cryptic-Heartbeat
-3. The-Hive
-4. continuity-ledger-cycle
-5. other `user:machackabook` surfaces updated recently
+1. ENCLAVE-ADAM-REUNITED (this hop — stage 146)
+2. The-Hive
+3. Cryptic-Heartbeat
+4. gaia-visualizer
+5. continuity-ledger-cycle
+6. other `user:machackabook` surfaces updated recently
 
 A pull that lands on `main` should leave a ledger stamp. Sibling hops require `CASCADE_TOKEN` (catalogued, not invented, never committed).
 Hourly Grok automation + Actions cron keep the speedway warm.
 
+## Bidirectional mesh (declared, not leaked)
+
+- GitHub `main` = canonical versioned truth
+- Drive ethereal folder = document / zip / SD-card-style working copies
+- Pull on Enclave stamps ledger; next hop is The-Hive
+- No invented credentials. No rewrite of history.
+
 ## Mesh siblings
 
-- [nexus-repo-sync](https://github.com/machackabook/nexus-repo-sync)
-- [Cryptic-Heartbeat](https://github.com/machackabook/Cryptic-Heartbeat)
 - [The-Hive](https://github.com/machackabook/The-Hive)
+- [Cryptic-Heartbeat](https://github.com/machackabook/Cryptic-Heartbeat)
 - [gaia-visualizer](https://github.com/machackabook/gaia-visualizer)
+- [nexus-repo-sync](https://github.com/machackabook/nexus-repo-sync)
 - [continuity-ledger-cycle](https://github.com/machackabook/continuity-ledger-cycle)
 - [TheLedgerIndex](https://github.com/machackabook/TheLedgerIndex)
 
