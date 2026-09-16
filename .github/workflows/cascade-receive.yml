@@ -1,0 +1,47 @@
+name: cascade-receive
+
+on:
+  repository_dispatch:
+    types: [continuity-cascade, hourly-enhance]
+  workflow_dispatch:
+  schedule:
+    - cron: "17 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  receive:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: stamp
+        run: |
+          date -u +%Y-%m-%dT%H:%M:%SZ > /tmp/ts
+          python3 - <<'PY'
+          import json, os, datetime
+          stamp = {
+            "node": "ENCLAVE-ADAM-REUNITED",
+            "hub": "TheLedgerIndex",
+            "numeral": "137451921129154222",
+            "stamped_at": datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
+            "event": os.environ.get("GITHUB_EVENT_NAME", "unknown"),
+            "refuse_null": True,
+          }
+          os.makedirs("docs", exist_ok=True)
+          with open("docs/ENCLAVE_CASCADE_STAMP.json", "w") as f:
+              json.dump(stamp, f, indent=2)
+              f.write("\n")
+          print(stamp)
+          PY
+      - name: commit if changed
+        run: |
+          git config user.name "continuity-engine"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/ENCLAVE_CASCADE_STAMP.json docs/CASCADE_RECEIVER.md || true
+          if git diff --cached --quiet; then
+            echo no-delta
+          else
+            git commit -m "enclave cascade stamp numeral 137451921129154222"
+            git push
+          fi
