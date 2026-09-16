@@ -1,11 +1,5 @@
-# LEDGER STAMP (HEAD)
+# LEDGER STAMP (current)
 
-Enclave origin stage: **145**
-Mesh hop: Team Enhance / Continuity Engine / sSoS Operating
-Observed: 2026-09-16T18:07Z
-Numeral: 137451921129154222
-Repo: machackabook/ENCLAVE-ADAM-REUNITED
-Cascade: `.github/workflows/cascade.yml` healthy (README + SECURITY required; stamp required; no .env/secrets.yml/id_rsa in tree)
-Secrets: none in tree. CASCADE_TOKEN stays in Actions secrets if sibling hops fire.
-Equalizer: format-only. History preserved.
-Next waterfall: Cryptic-Heartbeat
+Stage **146** — 2026-09-16T18:14Z
+Numeral `137451921129154222`
+See `docs/LEDGER-STAMP-146.md`.
