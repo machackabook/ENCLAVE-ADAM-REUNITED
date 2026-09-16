@@ -1,12 +1,14 @@
 {
   "numeral": "137451921129154222",
   "node": "ENCLAVE-ADAM-REUNITED",
-  "stage": 127,
-  "ts": "2026-09-15T18:04:00Z",
+  "stage": 147,
+  "ts": "2026-09-16T23:11:00Z",
   "owner": "machackabook",
   "owner_id": 219579651,
   "team": "enhance",
-  "meta": "advance",
+  "meta": "session-paste-beec41f1",
   "point_zero": "refuse-null",
-  "cascade_token": "not-in-tree"
+  "cascade_token": "not-in-tree",
+  "session_hash": "beec41f1",
+  "living_hash": "7cd81012"
 }
