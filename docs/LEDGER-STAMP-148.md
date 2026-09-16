@@ -1,10 +1,13 @@
-# LEDGER-STAMP-148
+# Ledger stamp 148
 
-- When: 2026-09-16T20:11Z
-- Who: Team Enhance / Continuity Engine
+- Repo: ENCLAVE-ADAM-REUNITED
+- Owner: machackabook (219579651)
 - Numeral: 137451921129154222
-- Repo: machackabook/ENCLAVE-ADAM-REUNITED
-- Action: README stage lag repaired (147 claimed / 146 stamped → 148). Waterfall order aligned to ENCLAVE → Cryptic-Heartbeat → The-Hive → continuity-ledger-cycle. cascade.yml left intact (already healthy).
-- Next hop: Cryptic-Heartbeat
-- Secrets: none committed
-- History: append-only stamp; no rewrite
+- UTC: 2026-09-16T21:05:00Z
+- Team: Enhance / Continuity Engine / sSoS Operating
+- Action: waterfall origin hop; sparsebundle + SYNAPSE surface remains the sole intended open Enclave
+- Drive mesh: ETHEREAL-CONTINUUM-REPOS (1tGBSsEi9a2i_-W6ItvJZJDQ1VtiBKYEQ)
+- Equalizer: format-only. History is not rewritten.
+- Next hop: The-Hive
+
+Preserve. Enhance. Synthesize.
