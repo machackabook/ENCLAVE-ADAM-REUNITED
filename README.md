@@ -10,9 +10,9 @@ Sole intended open Enclave surface for numeral `137451921129154222`.
 - Language: Python
 - Numeral: `137451921129154222`
 - Team: Enhance / Continuity Engine / sSoS Operating
-- Stage: **143** — 2026-09-16T12:26Z
+- Stage: **144** — 2026-09-16T17:03Z
 - Cascade: `.github/workflows/cascade.yml` + hourly continuity workflows (stamp-only this hop unless CASCADE_TOKEN is injected)
-- Ledger: `docs/LEDGER.md` + `docs/LEDGER-STAMP.md` + `docs/LEDGER-STAMP-143.md`
+- Ledger: `docs/LEDGER.md` + `docs/LEDGER-STAMP.md` + `docs/LEDGER-STAMP-144.md`
 - Security: `SECURITY.md` (no secrets in tree; operator tokens stay in GitHub Secrets)
 - Mesh: GitHub is the versioned singularity. Drive folder Continuity-Ethereal-Repos is the ethereal continuum (folder id catalogued off-tree).
 - Equalizer: format-only; no history rewrite.
@@ -30,7 +30,7 @@ Fails closed on empty SHA, missing README, or empty tree. Point-zero null refuse
 
 ## Waterfall (one repo per enhance hop)
 
-1. ENCLAVE-ADAM-REUNITED (this hop — stage 143)
+1. ENCLAVE-ADAM-REUNITED (this hop — stage 144)
 2. Cryptic-Heartbeat
 3. The-Hive
 4. continuity-ledger-cycle
