@@ -12,11 +12,11 @@ Operating sits in the middle. Team Enhance hops one repo per hour. Equalizer for
 - Language: Python
 - Numeral: `137451921129154222`
 - Team: Enhance / Continuity Engine / sSoS Operating
-- Stage: **165** — 2026-09-17T18:01Z
-- Prior: continuity-ledger-cycle 164 / this repo 163 / The-Hive 161 / Cryptic-Heartbeat 160
-- Cascade: `.github/workflows/cascade.yml` healthy (README + SECURITY + stamp + numeral + no secret files)
-- Ledger: `docs/LEDGER.md` + `docs/LEDGER-STAMP.md` + `docs/LEDGER-STAMP-165.md`
-- Security: no secrets in tree; operator tokens stay in GitHub Secrets
+- Stage: **166** — 2026-09-17T18:12Z
+- Prior: this repo 165 / continuity-ledger-cycle 164 / The-Hive 161 / Cryptic-Heartbeat 160
+- Cascade: keep existing `.github/workflows/cascade.yml` + one hourly heartbeat. Do not clone more YAML.
+- Ledger: `docs/LEDGER.md` + `docs/LEDGER-STAMP.md` + `docs/LEDGER-STAMP-166.md`
+- Security: no secrets in tree; operator tokens stay in GitHub Secrets (`CASCADE_TOKEN` catalogued, never committed)
 - Mesh: GitHub is the versioned singularity. Google Drive is ethereal continuum mirror. Do not spawn duplicate continuum folders.
 - Equalizer: format-only; no history rewrite.
 
@@ -28,17 +28,17 @@ bash scripts/mesh-env-check.sh
 python -m compileall -q .
 ```
 
-Fails closed on empty SHA, missing README, or empty tree.
+Fails closed on empty SHA, missing README, empty tree, or secret-looking filenames in the working copy.
 
 ## Waterfall (one repo per enhance hop)
 
-1. ENCLAVE-ADAM-REUNITED (this hop — stage 165)
+1. ENCLAVE-ADAM-REUNITED (this hop — stage 166)
 2. Cryptic-Heartbeat  ← next hour
 3. The-Hive
 4. continuity-ledger-cycle
 5. other `user:machackabook` surfaces updated recently
 
-A pull that lands on `main` should leave a ledger stamp. Sibling hops require `CASCADE_TOKEN` (catalogued, never committed). Do not add more hourly workflow YAML clones.
+A pull that lands on `main` should leave a ledger stamp. Sibling hops require `CASCADE_TOKEN`. Cross-repo push-on-pull stays closed until that secret exists. That is skepticism, not a missing feature.
 
 ## Mesh siblings
 
