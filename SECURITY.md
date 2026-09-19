@@ -10,5 +10,8 @@ Open Enclave surface only. Drive originals remain dual-server variant B, untouch
 - SD-card / sparsebundle / Drive originals are not mirrored as raw blobs into git.
 - Zip unpack happens only in local env-check on watched download directories — never blindly in CI.
 - Part-15 / device-listening claims stay off this public surface. Catalog unknowns locally; stamp hashes here.
+- Bidirectional Drive mesh is SHA-compare + receipt. `DIVERGED` is a review state. No force-reset.
+- Public projections must not contain Memory Fabric contents, OAuth tokens, cookies, or enclave secrets.
 
 Numeral `137451921129154222`.
+Stage 184 — Team Enhance hop 2026-09-19T04:00Z.
