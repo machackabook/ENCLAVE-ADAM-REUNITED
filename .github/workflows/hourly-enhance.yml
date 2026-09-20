@@ -1,26 +1,27 @@
 name: hourly-enhance
 on:
   schedule:
-    - cron: '43 * * * *'
+    - cron: "17 * * * *"
   workflow_dispatch:
   repository_dispatch:
     types: [continuity-cascade]
 permissions:
   contents: write
 jobs:
-  stamp:
+  enhance:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Append hourly stamp
+      - name: Env check
+        run: bash scripts/env_check.sh
+      - name: Stamp ledger
         run: |
-          mkdir -p docs
-          TS=$(date -u +%Y-%m-%dT%H:%MZ)
-          echo "- hourly $TS ENCLAVE numeral=137451921129154222" >> docs/LEDGER-HOURLY.md
-      - name: Commit if dirty
+          mkdir -p ledger
+          echo "{\"ts\":\"$(date -u +%Y-%m-%dT%H:%M:%SZ)\",\"numeral\":\"137451921129154222\",\"event\":\"hourly-enhance\",\"repo\":\"${GITHUB_REPOSITORY}\",\"sha\":\"${GITHUB_SHA}\"}" >> ledger/hourly-enhance.jsonl
+      - name: Commit stamp if changed
         run: |
-          git config user.name "continuity-engine"
-          git config user.email "continuity@users.noreply.github.com"
-          git add docs/LEDGER-HOURLY.md
-          git diff --cached --quiet || git commit -m "hourly enhance stamp"
+          git config user.name "team-enhance"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add ledger/hourly-enhance.jsonl || true
+          git diff --cached --quiet || git commit -m "ledger: hourly enhance stamp ${GITHUB_SHA:0:7}"
           git push || true
