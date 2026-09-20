@@ -12,13 +12,13 @@ Operating sits in the middle. Team Enhance hops one repo per hour. Equalizer for
 - Language: Python
 - Numeral: `137451921129154222`
 - Team: Enhance / Continuity Engine / sSoS Operating
-- Stage: **207** — 2026-09-20T16:14Z (2026-09-20 11:14 CDT)
-- Compounding tier: **T4 / 86%** (see `docs/GROWTH-TIERS.md`)
-- Prior mesh: hop 206 @ 11:03Z; waterfall wrap after ledger-cycle pulse
-- This hop: README compound + append-only ledger stamp 207; cascade YAML left intact; no secrets written
+- Stage: **208** — 2026-09-20T21:07Z (2026-09-20 16:07 CDT)
+- Compounding tier: **T4 / 88%** (see `docs/GROWTH-TIERS.md`)
+- Prior mesh: hop 207 @ 16:14Z; waterfall wrap after ledger-cycle pulse
+- This hop: README compound + append-only ledger stamp 208; cascade YAML left intact; no secrets written
 - Next hour: Cryptic-Heartbeat
 - Cascade: keep existing `.github/workflows/cascade.yml` healthy. Do not clone more hourly YAML.
-- Ledger: `docs/LEDGER-STAMP.md` + `docs/HOP-207.md`
+- Ledger: `docs/LEDGER-STAMP.md` + `docs/HOP-208.md`
 - Growth: `docs/GROWTH-TIERS.md` — tiered percentile path toward 100% perfect
 - Security: no secrets in tree; operator tokens stay in GitHub Secrets (catalogued, never committed)
 - Mesh: GitHub is the versioned singularity. Ethereal continuum is a mirror. Do not spawn duplicate continuum folders.
@@ -38,7 +38,7 @@ Each hop compounds prior quality. Tiers climb toward 100% perfect. Fail closed o
 | T5 | 95–99% | Near-perfect; only unknown sought |
 | T6 | 100% | Perfect — refused as static; always seek next unknown |
 
-Current score for this surface: **86% (T4)**. Next hop compounds +2–5% when checks pass.
+Current score for this surface: **88% (T4)**. Next hop compounds +2–5% when checks pass.
 
 ## Local env-check
 
@@ -52,7 +52,7 @@ Fails closed on empty SHA, missing README, empty tree, or secret-looking filenam
 
 ## Waterfall (one repo per enhance hop)
 
-1. ENCLAVE-ADAM-REUNITED (this hop — stage 207)
+1. ENCLAVE-ADAM-REUNITED (this hop — stage 208)
 2. Cryptic-Heartbeat  ← next hour
 3. The-Hive
 4. continuity-ledger-cycle
