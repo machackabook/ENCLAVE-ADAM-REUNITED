@@ -12,13 +12,13 @@ Operating sits in the middle. Team Enhance hops one repo per hour. Equalizer for
 - Language: Python
 - Numeral: `137451921129154222`
 - Team: Enhance / Continuity Engine / sSoS Operating
-- Stage: **198** — 2026-09-20T02:07Z (2026-09-19 21:07 CDT)
-- Compounding tier: **T3 / 78%** (see `docs/GROWTH-TIERS.md`)
-- Prior mesh: this node 197 @ 22:08Z / Cryptic-Heartbeat + The-Hive pushed ~01:15Z / continuity-ledger-cycle earlier this UTC day
-- This hop: compounding enhancement cycle; README quality refresh; append-only ledger stamp 198; cascade YAML left intact; no secrets written
+- Stage: **204** — 2026-09-20T03:14Z (2026-09-19 22:14 CDT)
+- Compounding tier: **T3 / 80%** (see `docs/GROWTH-TIERS.md`)
+- Prior mesh: this node 198 @ 02:07Z / gaia-visualizer + The-Hive kernel 204 this hop
+- This hop: waterfall wrap after session `update(t)` reconfirm; append-only ledger stamp 204; cascade YAML left intact; no secrets written
 - Next hour: Cryptic-Heartbeat
 - Cascade: keep existing `.github/workflows/cascade.yml` healthy. Do not clone more hourly YAML.
-- Ledger: `docs/LEDGER-STAMP.md` + `docs/LEDGER-STAMP-198.md` + `docs/HOP-198.md`
+- Ledger: `docs/LEDGER-STAMP-204.md` + `docs/HOP-204.md`
 - Growth: `docs/GROWTH-TIERS.md` — tiered percentile path toward 100% perfect
 - Security: no secrets in tree; operator tokens stay in GitHub Secrets (catalogued, never committed)
 - Mesh: GitHub is the versioned singularity. Ethereal continuum is a mirror. Do not spawn duplicate continuum folders.
@@ -33,12 +33,12 @@ Each hop compounds prior quality. Tiers climb toward 100% perfect. Fail closed o
 | T0 | 0–19% | Bare surface |
 | T1 | 20–39% | Stamp + README present |
 | T2 | 40–59% | Cascade healthy + numeral locked |
-| T3 | 60–79% | Compounding cycle live (this hop) |
-| T4 | 80–94% | Mesh siblings verified + env-check green |
+| T3 | 60–79% | Compounding cycle live |
+| T4 | 80–94% | Mesh siblings verified + env-check green (this hop edge) |
 | T5 | 95–99% | Near-perfect; only unknown sought |
 | T6 | 100% | Perfect — refused as static; always seek next unknown |
 
-Current score for this surface: **78% (T3)**. Next hop compounds +2–5% when checks pass.
+Current score for this surface: **80% (T4 edge)**. Next hop compounds +2–5% when checks pass.
 
 ## Local env-check
 
@@ -52,7 +52,7 @@ Fails closed on empty SHA, missing README, empty tree, or secret-looking filenam
 
 ## Waterfall (one repo per enhance hop)
 
-1. ENCLAVE-ADAM-REUNITED (this hop — stage 198, T3/78%)
+1. ENCLAVE-ADAM-REUNITED (this hop — stage 204)
 2. Cryptic-Heartbeat  ← next hour
 3. The-Hive
 4. continuity-ledger-cycle
