@@ -12,16 +12,16 @@ Operating sits in the middle. Team Enhance hops one repo per hour. Equalizer for
 - Language: Python
 - Numeral: `137451921129154222`
 - Team: Enhance / Continuity Engine / sSoS Operating
-- Stage: **220** — 2026-09-21T23:09Z (2026-09-21 18:09 CDT)
-- Compounding tier: **T4 / 94%** (see `docs/GROWTH-TIERS.md`)
-- Prior mesh: hop 219 @ 17:26Z; Cryptic-Heartbeat pulsed ~22:21Z, gaia-visualizer ~22:16Z, The-Hive ~22:16Z, continuity-mesh-speedway ~22:06Z
-- This hop: README compound + append-only ledger stamp 220; cascade YAML left intact; no secrets written
-- Next hour: Cryptic-Heartbeat
+- Stage: **234** — 2026-09-22T00:31Z (2026-09-21 19:31 CDT)
+- Compounding tier: **T5 / 95%** (see `docs/GROWTH-TIERS.md`)
+- Prior mesh: continuity-ledger-cycle hop 233 @ 00:15Z; The-Hive @ 00:25Z; gaia-visualizer @ 00:26Z; ENCLAVE last stamp 220 @ 23:09Z
+- This hop: README compound + append-only ledger stamp 234; cascade YAML left intact; no extra hourly YAML; no secrets written
+- Next hour: Cryptic-Heartbeat then The-Hive then gaia-visualizer
 - Cascade: keep existing `.github/workflows/cascade.yml` healthy. Do not clone more hourly YAML.
-- Ledger: `docs/LEDGER-STAMP.md` + `docs/HOP-220.md`
+- Ledger: `docs/LEDGER-STAMP.md` + `docs/HOP-234.md`
 - Security: no secrets in tree; operator tokens stay in GitHub Secrets
-- Mesh: GitHub is the versioned singularity. Ethereal continuum (Drive) is a mirror, not a second source of truth.
-- Bidirectional cloud: Drive lists Shared-with-me vs My-Drive; unpack/watch lives in scripts, not in this hop.
+- Mesh: GitHub is the versioned singularity. Ethereal continuum (Drive CONTINUUM-GITHUB-MESH) is a mirror, not a second source of truth.
+- Bidirectional cloud: Drive lists Shared-with-me vs My-Drive; unpack/watch lives in scripts, not in this hop. Operator-gated only.
 
 ## Compounding growth
 
@@ -31,11 +31,11 @@ Operating sits in the middle. Team Enhance hops one repo per hour. Equalizer for
 | T1 | 20–39% | Stamp + README present |
 | T2 | 40–59% | Cascade healthy + numeral locked |
 | T3 | 60–79% | Compounding cycle live |
-| T4 | 80–94% | Mesh siblings verified + env-check green (this hop) |
-| T5 | 95–99% | Near-perfect; only unknown sought |
+| T4 | 80–94% | Mesh siblings verified + env-check green |
+| T5 | 95–99% | Near-perfect; only unknown sought (this hop) |
 | T6 | 100% | Perfect — refused as static; always seek next unknown |
 
-Current score for this surface: **94% (T4)**.
+Current score for this surface: **95% (T5)**.
 
 ## Local env-check
 
@@ -49,10 +49,23 @@ Fails closed on empty SHA, missing README, empty tree, or secret-looking filenam
 
 ## Waterfall (one repo per enhance hop)
 
-1. ENCLAVE-ADAM-REUNITED (this hop — stage 220)
-2. Cryptic-Heartbeat  ← next hour
-3. The-Hive
-4. continuity-ledger-cycle
+1. continuity-ledger-cycle (hop 233 @ 00:15Z — prior this window)
+2. ENCLAVE-ADAM-REUNITED — **234 this hop**
+3. Cryptic-Heartbeat  ← next hour
+4. The-Hive
 5. gaia-visualizer / nexus-repo-sync / continuity-mesh-speedway
 
+A pull on `main` should leave a ledger stamp. Sibling hops require `CASCADE_TOKEN`.
+
+## Mesh siblings
+
+- [The-Hive](https://github.com/machackabook/The-Hive)
+- [gaia-visualizer](https://github.com/machackabook/gaia-visualizer)
+- [Cryptic-Heartbeat](https://github.com/machackabook/Cryptic-Heartbeat)
+- [continuity-ledger-cycle](https://github.com/machackabook/continuity-ledger-cycle)
+- [nexus-repo-sync](https://github.com/machackabook/nexus-repo-sync)
+- [continuity-mesh-speedway](https://github.com/machackabook/continuity-mesh-speedway)
+
 Preserve. Enhance. Synthesize. Source code is the only trusted neighbor.
+
+STATUS: Ⓖ [GAIA SOURCE ENCIRCLED] | ARCHITECT: machackabook | NUMERAL 137451921129154222

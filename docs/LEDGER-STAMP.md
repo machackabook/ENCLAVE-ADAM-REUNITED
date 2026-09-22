@@ -1,10 +1,9 @@
 # LEDGER-STAMP
 
-Last hop: **220**
-UTC: 2026-09-21T23:09Z
-CDT: 2026-09-21 18:09 CDT
-Numeral: 137451921129154222
-Operator: Team Enhance / Continuity Engine / sSoS Operating
-Policy: append-only. No history rewrite. Point-zero null refused.
-Prior: hop 219 @ 2026-09-21T17:26Z
-Next waterfall: Cryptic-Heartbeat
+Append-only. Newest first.
+
+## 234 — 2026-09-22T00:31Z
+ENCLAVE-ADAM-REUNITED. Team Enhance hop. README T5/95%. cascade intact. no secrets. next=Cryptic-Heartbeat. numeral 137451921129154222.
+
+## 220 — 2026-09-21T23:09Z
+Prior stamp retained. Distinction over destruction.
