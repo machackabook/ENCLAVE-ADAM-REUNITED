@@ -12,15 +12,15 @@ Operating sits in the middle. Team Enhance hops one repo per hour. Equalizer for
 - Language: Python
 - Numeral: `137451921129154222`
 - Team: Enhance / Continuity Engine / sSoS Operating
-- Stage: **235** — 2026-09-22T02:20Z (2026-09-21 21:20 CDT)
+- Stage: **236** — 2026-09-22T03:18Z (2026-09-21 22:18 CDT)
 - Compounding tier: **T5 / 95%** (see `docs/GROWTH-TIERS.md`)
-- Prior mesh: ENCLAVE hop 234 @ 00:31Z; The-Hive / gaia-visualizer pushed ~02:15Z; Cryptic-Heartbeat @ 01:28Z
-- This hop: README compound + append-only ledger stamp 235; cascade YAML left intact; no extra hourly YAML; no secrets written
+- Prior mesh: hop 235 @ 02:20Z; The-Hive / gaia-visualizer ~02:15Z; Cryptic-Heartbeat @ 01:28Z
+- This hop: README compound + HOP-236 + Drive mesh contract; cascade YAML left intact; no extra hourly YAML; no secrets written
 - Next hour: Cryptic-Heartbeat then The-Hive then continuity-ledger-cycle
 - Cascade: keep existing `.github/workflows/cascade.yml` healthy. Do not clone more hourly YAML.
-- Ledger: `docs/LEDGER-STAMP.md` + `docs/HOP-235.md`
+- Ledger: `docs/LEDGER-STAMP.md` + `docs/HOP-236.md`
 - Security: no secrets in tree; operator tokens stay in GitHub Secrets
-- Mesh: GitHub is the versioned singularity. Ethereal continuum is a mirror, not a second source of truth.
+- Mesh: GitHub is the versioned singularity. Ethereal continuum (Drive) is a mirror, not a second source of truth. See `docs/DRIVE-MESH-CONTRACT.md`.
 - Bidirectional cloud: Drive lists Shared-with-me vs My-Drive; unpack/watch lives in scripts, not in this hop. Operator-gated only.
 
 ## Compounding growth
@@ -49,7 +49,7 @@ Fails closed on empty SHA, missing README, empty tree, or secret-looking filenam
 
 ## Waterfall (one repo per enhance hop)
 
-1. ENCLAVE-ADAM-REUNITED — **235 this hop**
+1. ENCLAVE-ADAM-REUNITED — **236 this hop**
 2. Cryptic-Heartbeat  ← next hour
 3. The-Hive
 4. continuity-ledger-cycle
