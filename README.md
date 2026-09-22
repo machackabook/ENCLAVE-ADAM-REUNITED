@@ -12,13 +12,13 @@ Operating sits in the middle. Team Enhance hops one repo per hour. Equalizer for
 - Language: Python
 - Numeral: `137451921129154222`
 - Team: Enhance / Continuity Engine / sSoS Operating
-- Stage: **237** — 2026-09-22T05:21Z (2026-09-22 00:21 CDT)
+- Stage: **238** — 2026-09-22T06:21Z (2026-09-22 01:21 CDT)
 - Compounding tier: **T5 / 95%** (see `docs/GROWTH-TIERS.md`)
-- Prior mesh: hop 236 @ 03:18Z; Cryptic-Heartbeat / The-Hive ~04:15Z
-- This hop: README compound + HOP-237 + LEDGER-STAMP; cascade YAML left intact; no extra hourly YAML; no secrets written
+- Prior mesh: hop 237 @ 05:21Z; Cryptic-Heartbeat / The-Hive ~04:15Z
+- This hop: README compound + HOP-238 + LEDGER-STAMP; cascade YAML left intact; no extra hourly YAML; no secrets written
 - Next hour: Cryptic-Heartbeat then The-Hive then continuity-ledger-cycle
 - Cascade: keep existing `.github/workflows/cascade.yml` healthy. Do not clone more hourly YAML.
-- Ledger: `docs/LEDGER-STAMP.md` + `docs/HOP-237.md`
+- Ledger: `docs/LEDGER-STAMP.md` + `docs/HOP-238.md`
 - Security: no secrets in tree; operator tokens stay in GitHub Secrets
 - Mesh: GitHub is the versioned singularity. Ethereal continuum (Drive) is a mirror, not a second source of truth. See `docs/DRIVE-MESH-CONTRACT.md`.
 - Bidirectional cloud: Drive lists Shared-with-me vs My-Drive; unpack/watch lives in scripts, not in this hop. Operator-gated only.
@@ -49,7 +49,7 @@ Fails closed on empty SHA, missing README, empty tree, or secret-looking filenam
 
 ## Waterfall (one repo per enhance hop)
 
-1. ENCLAVE-ADAM-REUNITED — **237 this hop**
+1. ENCLAVE-ADAM-REUNITED — **238 this hop**
 2. Cryptic-Heartbeat  ← next hour
 3. The-Hive
 4. continuity-ledger-cycle
