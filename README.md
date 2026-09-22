@@ -12,15 +12,15 @@ Operating sits in the middle. Team Enhance hops one repo per hour. Equalizer for
 - Language: Python
 - Numeral: `137451921129154222`
 - Team: Enhance / Continuity Engine / sSoS Operating
-- Stage: **234** — 2026-09-22T00:31Z (2026-09-21 19:31 CDT)
+- Stage: **235** — 2026-09-22T02:20Z (2026-09-21 21:20 CDT)
 - Compounding tier: **T5 / 95%** (see `docs/GROWTH-TIERS.md`)
-- Prior mesh: continuity-ledger-cycle hop 233 @ 00:15Z; The-Hive @ 00:25Z; gaia-visualizer @ 00:26Z; ENCLAVE last stamp 220 @ 23:09Z
-- This hop: README compound + append-only ledger stamp 234; cascade YAML left intact; no extra hourly YAML; no secrets written
-- Next hour: Cryptic-Heartbeat then The-Hive then gaia-visualizer
+- Prior mesh: ENCLAVE hop 234 @ 00:31Z; The-Hive / gaia-visualizer pushed ~02:15Z; Cryptic-Heartbeat @ 01:28Z
+- This hop: README compound + append-only ledger stamp 235; cascade YAML left intact; no extra hourly YAML; no secrets written
+- Next hour: Cryptic-Heartbeat then The-Hive then continuity-ledger-cycle
 - Cascade: keep existing `.github/workflows/cascade.yml` healthy. Do not clone more hourly YAML.
-- Ledger: `docs/LEDGER-STAMP.md` + `docs/HOP-234.md`
+- Ledger: `docs/LEDGER-STAMP.md` + `docs/HOP-235.md`
 - Security: no secrets in tree; operator tokens stay in GitHub Secrets
-- Mesh: GitHub is the versioned singularity. Ethereal continuum (Drive CONTINUUM-GITHUB-MESH) is a mirror, not a second source of truth.
+- Mesh: GitHub is the versioned singularity. Ethereal continuum is a mirror, not a second source of truth.
 - Bidirectional cloud: Drive lists Shared-with-me vs My-Drive; unpack/watch lives in scripts, not in this hop. Operator-gated only.
 
 ## Compounding growth
@@ -49,10 +49,10 @@ Fails closed on empty SHA, missing README, empty tree, or secret-looking filenam
 
 ## Waterfall (one repo per enhance hop)
 
-1. continuity-ledger-cycle (hop 233 @ 00:15Z — prior this window)
-2. ENCLAVE-ADAM-REUNITED — **234 this hop**
-3. Cryptic-Heartbeat  ← next hour
-4. The-Hive
+1. ENCLAVE-ADAM-REUNITED — **235 this hop**
+2. Cryptic-Heartbeat  ← next hour
+3. The-Hive
+4. continuity-ledger-cycle
 5. gaia-visualizer / nexus-repo-sync / continuity-mesh-speedway
 
 A pull on `main` should leave a ledger stamp. Sibling hops require `CASCADE_TOKEN`.
