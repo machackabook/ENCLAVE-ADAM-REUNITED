@@ -1,9 +1,10 @@
-# Ledger stamp
+# LEDGER-STAMP
 
-Latest hop: **240**
-Numeral: `137451921129154222`
-Node: ENCLAVE-ADAM-REUNITED
-UTC: 2026-09-22T15:06Z (CDT 10:06)
-Refuse null. Append only.
-Cascade.yml left intact. No secrets. History preserved.
-Next waterfall: Cryptic-Heartbeat.
+Last hop: **241** @ 2026-09-22T15:10Z
+Surface: ENCLAVE-ADAM-REUNITED
+Numeral: 137451921129154222
+Authority: source code only
+Encoding: append-only; QR/base64 remembrance lives off-tree in operator continuum
+Alchemical marks: 💅💆💄💇💃💁 💂
+
+DIVERGED is a review state. No automatic merge.
