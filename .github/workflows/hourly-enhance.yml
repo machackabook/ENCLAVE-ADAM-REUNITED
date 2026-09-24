@@ -1,27 +1,25 @@
-name: hourly-enhance
+name: continuity-hourly-enhance
 on:
   schedule:
     - cron: "17 * * * *"
   workflow_dispatch:
-  repository_dispatch:
-    types: [continuity-cascade]
-permissions:
-  contents: write
+  push:
+    branches: [main]
 jobs:
-  enhance:
+  heartbeat:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
-      - name: Env check
-        run: bash scripts/env_check.sh
-      - name: Stamp ledger
+      - name: append ledger tick
         run: |
           mkdir -p ledger
-          echo "{\"ts\":\"$(date -u +%Y-%m-%dT%H:%M:%SZ)\",\"numeral\":\"137451921129154222\",\"event\":\"hourly-enhance\",\"repo\":\"${GITHUB_REPOSITORY}\",\"sha\":\"${GITHUB_SHA}\"}" >> ledger/hourly-enhance.jsonl
-      - name: Commit stamp if changed
+          echo "$(date -u +%Y-%m-%dT%H:%M:%SZ) TICK 137451921129154222 enhance-alive" >> ledger/hourly.log
+      - name: commit if dirty
         run: |
-          git config user.name "team-enhance"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add ledger/hourly-enhance.jsonl || true
-          git diff --cached --quiet || git commit -m "ledger: hourly enhance stamp ${GITHUB_SHA:0:7}"
+          git config user.name "continuity-engine"
+          git config user.email "continuity@users.noreply.github.com"
+          git add ledger/hourly.log CONTINUITY_PIPELINE.md || true
+          git diff --cached --quiet || git commit -m "ledger: hourly enhance tick ${GITHUB_SHA:-local}"
           git push || true
