@@ -1,8 +1,9 @@
 {
   "numeral": "137451921129154222",
   "node": "ENCLAVE-ADAM-REUNITED",
-  "stage": 147,
-  "ts": "2026-09-16T23:11:00Z",
+  "stage": 282,
+  "ts": "2026-09-25T03:06:00Z",
+  "cdt": "2026-09-24 22:06 CDT",
   "owner": "machackabook",
   "owner_id": 219579651,
   "team": "enhance",
@@ -10,5 +11,7 @@
   "point_zero": "refuse-null",
   "cascade_token": "not-in-tree",
   "session_hash": "beec41f1",
-  "living_hash": "7cd81012"
+  "living_hash": "7cd81012",
+  "prior": 281,
+  "next": "Hive WS ledger_pulse + HeartbeatScan 4-gov"
 }
